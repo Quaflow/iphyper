@@ -99,17 +99,29 @@
             box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.7) !important;
             padding: 0 !important;
             min-width: 280px;
+            pointer-events: auto !important;
+        }
+        .leaflet-popup {
+            pointer-events: none !important;
+        }
+        .leaflet-popup-tip-container {
+            pointer-events: auto !important;
         }
         .leaflet-popup-tip {
             background-color: var(--bg-card) !important;
             border: 1px solid var(--border-color) !important;
+            pointer-events: auto !important;
         }
         .leaflet-popup-content {
             margin: 0 !important;
             line-height: 1.5;
+            pointer-events: auto !important;
         }
         .leaflet-popup-close-button {
             display: none; 
+        }
+        .custom-div-icon {
+            pointer-events: auto !important;
         }
 
         /* Mobile Adjustments */
@@ -325,17 +337,314 @@
                 lbl_org: "Kurum",
                 lbl_coords: "Konum"
             },
-            es: { appTitle: "IPHyper", lbl_region: "Región", lbl_postal: "Postal", lbl_org: "Org", errorTitle: "Error", quotaError: "Cuota diaria excedida." },
-            zh: { appTitle: "IPHyper", lbl_region: "地区", lbl_postal: "邮政", lbl_org: "组织", errorTitle: "错误", quotaError: "超出每日配额。" },
-            hi: { appTitle: "IPHyper", lbl_region: "क्षेत्र", lbl_postal: "डाक", lbl_org: "संगठन", errorTitle: "त्रुटि", quotaError: "दैनिक कोटा पार हो गया।" },
-            ar: { appTitle: "IPHyper", lbl_region: "منطقة", lbl_postal: "بريدي", lbl_org: "منظمة", errorTitle: "خطأ", quotaError: "تجاوزت الحصة اليومية." },
-            pt: { appTitle: "IPHyper", lbl_region: "Região", lbl_postal: "Postal", lbl_org: "Org", errorTitle: "Erro", quotaError: "Cota diária excedida." },
-            bn: { appTitle: "IPHyper", lbl_region: "অঞ্চল", lbl_postal: "ডাক", lbl_org: "সংস্থা", errorTitle: "ত্রুটি", quotaError: "দৈনিক কোটা অতিক্রম করেছে।" },
-            ru: { appTitle: "IPHyper", lbl_region: "Регион", lbl_postal: "Почтовый", lbl_org: "Орг", errorTitle: "Ошибка", quotaError: "Дневная квота превышена." },
-            ja: { appTitle: "IPHyper", lbl_region: "地域", lbl_postal: "郵便", lbl_org: "組織", errorTitle: "エラー", quotaError: "1日の割り当てを超えました。" },
-            de: { appTitle: "IPHyper", lbl_region: "Region", lbl_postal: "PLZ", lbl_org: "Org", errorTitle: "Fehler", quotaError: "Tageskontingent überschritten." },
-            fr: { appTitle: "IPHyper", lbl_region: "Région", lbl_postal: "Postal", lbl_org: "Org", errorTitle: "Erreur", quotaError: "Quota quotidien dépassé." },
-            id: { appTitle: "IPHyper", lbl_region: "Wilayah", lbl_postal: "Pos", lbl_org: "Org", errorTitle: "Kesalahan", quotaError: "Kuota harian terlampaui." }
+            es: {
+                appTitle: "IPHyper",
+                targetList: "Lista de objetivos",
+                processQueue: "Cola de proceso",
+                waitingData: "Esperando datos...",
+                editBtn: "Editar",
+                retryBtn: "Reintentar",
+                systemStatus: "Estado del sistema",
+                statusDesc: "Pase el mouse sobre los marcadores para ver detalles.",
+                defineTarget: "Definir objetivos",
+                enterIps: "Ingrese direcciones IPv4 para analizar.",
+                startAnalysis: "Iniciar análisis",
+                loadDemo: "Cargar demo",
+                cancelBtn: "Cancelar",
+                addBtn: "Agregar",
+                notFound: "No encontrado",
+                waiting: "Esperando...",
+                emptyList: "Lista vacía",
+                invalidIP: "No se encontraron direcciones IP válidas.",
+                errorTitle: "Error",
+                quotaError: "Cuota diaria excedida.",
+                lbl_region: "Región",
+                lbl_postal: "Postal",
+                lbl_timezone: "Zona Horaria",
+                lbl_asn: "ASN",
+                lbl_org: "Org",
+                lbl_coords: "Coords"
+            },
+            zh: {
+                appTitle: "IPHyper",
+                targetList: "目标列表",
+                processQueue: "处理队列",
+                waitingData: "等待数据...",
+                editBtn: "编辑",
+                retryBtn: "重试",
+                systemStatus: "系统状态",
+                statusDesc: "将鼠标悬停在标记上以查看详细信息。",
+                defineTarget: "定义目标",
+                enterIps: "输入要分析的 IPv4 地址。",
+                startAnalysis: "开始分析",
+                loadDemo: "加载演示数据",
+                cancelBtn: "取消",
+                addBtn: "添加",
+                notFound: "未找到",
+                waiting: "等待中...",
+                emptyList: "列表为空",
+                invalidIP: "未找到有效的 IP 地址。",
+                errorTitle: "错误",
+                quotaError: "超出每日配额。",
+                lbl_region: "地区",
+                lbl_postal: "邮政",
+                lbl_timezone: "时区",
+                lbl_asn: "ASN",
+                lbl_org: "组织",
+                lbl_coords: "坐标"
+            },
+            hi: {
+                appTitle: "IPHyper",
+                targetList: "लक्ष्य सूची",
+                processQueue: "प्रक्रिया कतार",
+                waitingData: "डेटा की प्रतीक्षा है...",
+                editBtn: "संपादित करें",
+                retryBtn: "पुनः प्रयास करें",
+                systemStatus: "सिस्टम स्थिति",
+                statusDesc: "विवरण देखने के लिए मार्कर पर होवर करें।",
+                defineTarget: "लक्ष्य परिभाषित करें",
+                enterIps: "विश्लेषण के लिए IPv4 पते दर्ज करें।",
+                startAnalysis: "विश्लेषण शुरू करें",
+                loadDemo: "डेमो डेटा लोड करें",
+                cancelBtn: "रद्द करें",
+                addBtn: "जोड़ें",
+                notFound: "नहीं मिला",
+                waiting: "प्रतीक्षा कर रहा है...",
+                emptyList: "सूची खाली है",
+                invalidIP: "कोई मान्य IP पता नहीं मिला।",
+                errorTitle: "त्रुटि",
+                quotaError: "दैनिक कोटा पार हो गया।",
+                lbl_region: "क्षेत्र",
+                lbl_postal: "डाक",
+                lbl_timezone: "समय क्षेत्र",
+                lbl_asn: "ASN",
+                lbl_org: "संगठन",
+                lbl_coords: "निर्देशांक"
+            },
+            ar: {
+                appTitle: "IPHyper",
+                targetList: "قائمة الأهداف",
+                processQueue: "قائمة الانتظار",
+                waitingData: "انتظار البيانات...",
+                editBtn: "تعديل",
+                retryBtn: "إعادة المحاولة",
+                systemStatus: "حالة النظام",
+                statusDesc: "مرر الماوس فوق العلامات لعرض التفاصيل.",
+                defineTarget: "تحديد الأهداف",
+                enterIps: "أدخل عناوين IPv4 للتحليل.",
+                startAnalysis: "بدء التحليل",
+                loadDemo: "تحميل بيانات تجريبية",
+                cancelBtn: "إلغاء",
+                addBtn: "إضافة",
+                notFound: "غير موجود",
+                waiting: "انتظار...",
+                emptyList: "القائمة فارغة",
+                invalidIP: "لم يتم العثور على عناوين IP صالحة.",
+                errorTitle: "خطأ",
+                quotaError: "تجاوزت الحصة اليومية.",
+                lbl_region: "منطقة",
+                lbl_postal: "بريدي",
+                lbl_timezone: "المنطقة الزمنية",
+                lbl_asn: "ASN",
+                lbl_org: "منظمة",
+                lbl_coords: "إحداثيات"
+            },
+            pt: {
+                appTitle: "IPHyper",
+                targetList: "Lista de Alvos",
+                processQueue: "Fila de Processamento",
+                waitingData: "Aguardando dados...",
+                editBtn: "Editar",
+                retryBtn: "Tentar novamente",
+                systemStatus: "Status do Sistema",
+                statusDesc: "Passe o mouse sobre os marcadores para ver detalhes.",
+                defineTarget: "Definir Alvos",
+                enterIps: "Insira endereços IPv4 para analisar.",
+                startAnalysis: "Iniciar Análise",
+                loadDemo: "Carregar dados de demonstração",
+                cancelBtn: "Cancelar",
+                addBtn: "Adicionar",
+                notFound: "Não encontrado",
+                waiting: "Aguardando...",
+                emptyList: "Lista vazia",
+                invalidIP: "Nenhum endereço IP válido encontrado.",
+                errorTitle: "Erro",
+                quotaError: "Cota diária excedida.",
+                lbl_region: "Região",
+                lbl_postal: "Postal",
+                lbl_timezone: "Fuso Horário",
+                lbl_asn: "ASN",
+                lbl_org: "Org",
+                lbl_coords: "Coords"
+            },
+            bn: {
+                appTitle: "IPHyper",
+                targetList: "টার্গেট তালিকা",
+                processQueue: "প্রসেস কিউ",
+                waitingData: "ডেটার জন্য অপেক্ষা করা হচ্ছে...",
+                editBtn: "সম্পাদনা",
+                retryBtn: "পুনরায় চেষ্টা করুন",
+                systemStatus: "সিস্টেম স্ট্যাটাস",
+                statusDesc: "বিস্তারিত দেখতে মার্কারের উপর মাউস রাখুন।",
+                defineTarget: "টার্গেট নির্ধারণ করুন",
+                enterIps: "বিশ্লেষণের জন্য IPv4 ঠিকানা লিখুন।",
+                startAnalysis: "বিশ্লেষণ শুরু করুন",
+                loadDemo: "ডেমো ডেটা লোড করুন",
+                cancelBtn: "বাতিল",
+                addBtn: "যোগ করুন",
+                notFound: "পাওয়া যায়নি",
+                waiting: "অপেক্ষা করা হচ্ছে...",
+                emptyList: "তালিকা খালি",
+                invalidIP: "কোনো বৈধ IP ঠিকানা পাওয়া যায়নি।",
+                errorTitle: "ত্রুটি",
+                quotaError: "দৈনিক কোটা অতিক্রম করেছে।",
+                lbl_region: "অঞ্চল",
+                lbl_postal: "ডাক",
+                lbl_timezone: "সময় অঞ্চল",
+                lbl_asn: "ASN",
+                lbl_org: "সংস্থা",
+                lbl_coords: "স্থানাঙ্ক"
+            },
+            ru: {
+                appTitle: "IPHyper",
+                targetList: "Список целей",
+                processQueue: "Очередь обработки",
+                waitingData: "Ожидание данных...",
+                editBtn: "Редактировать",
+                retryBtn: "Повторить",
+                systemStatus: "Статус системы",
+                statusDesc: "Наведите курсор на маркеры для просмотра деталей.",
+                defineTarget: "Определить цели",
+                enterIps: "Введите IPv4 адреса для анализа.",
+                startAnalysis: "Начать анализ",
+                loadDemo: "Загрузить демо",
+                cancelBtn: "Отмена",
+                addBtn: "Добавить",
+                notFound: "Не найдено",
+                waiting: "Ожидание...",
+                emptyList: "Список пуст",
+                invalidIP: "Действительные IP-адреса не найдены.",
+                errorTitle: "Ошибка",
+                quotaError: "Дневная квота превышена.",
+                lbl_region: "Регион",
+                lbl_postal: "Почтовый",
+                lbl_timezone: "Часовой пояс",
+                lbl_asn: "ASN",
+                lbl_org: "Орг",
+                lbl_coords: "Координаты"
+            },
+            ja: {
+                appTitle: "IPHyper",
+                targetList: "ターゲットリスト",
+                processQueue: "処理キュー",
+                waitingData: "データを待機中...",
+                editBtn: "編集",
+                retryBtn: "再試行",
+                systemStatus: "システムステータス",
+                statusDesc: "マーカーにカーソルを合わせると詳細が表示されます。",
+                defineTarget: "ターゲットを定義",
+                enterIps: "分析するIPv4アドレスを入力してください。",
+                startAnalysis: "分析を開始",
+                loadDemo: "デモデータをロード",
+                cancelBtn: "キャンセル",
+                addBtn: "追加",
+                notFound: "見つかりません",
+                waiting: "待機中...",
+                emptyList: "リストは空です",
+                invalidIP: "有効なIPアドレスが見つかりませんでした。",
+                errorTitle: "エラー",
+                quotaError: "1日の割り当てを超えました。",
+                lbl_region: "地域",
+                lbl_postal: "郵便",
+                lbl_timezone: "タイムゾーン",
+                lbl_asn: "ASN",
+                lbl_org: "組織",
+                lbl_coords: "座標"
+            },
+            de: {
+                appTitle: "IPHyper",
+                targetList: "Zielliste",
+                processQueue: "Verarbeitungswarteschlange",
+                waitingData: "Warte auf Daten...",
+                editBtn: "Bearbeiten",
+                retryBtn: "Wiederholen",
+                systemStatus: "Systemstatus",
+                statusDesc: "Fahren Sie mit der Maus über Markierungen für Details.",
+                defineTarget: "Ziele definieren",
+                enterIps: "Geben Sie IPv4-Adressen zur Analyse ein.",
+                startAnalysis: "Analyse starten",
+                loadDemo: "Demodaten laden",
+                cancelBtn: "Abbrechen",
+                addBtn: "Hinzufügen",
+                notFound: "Nicht gefunden",
+                waiting: "Warten...",
+                emptyList: "Liste ist leer",
+                invalidIP: "Keine gültigen IP-Adressen gefunden.",
+                errorTitle: "Fehler",
+                quotaError: "Tageskontingent überschritten.",
+                lbl_region: "Region",
+                lbl_postal: "PLZ",
+                lbl_timezone: "Zeitzone",
+                lbl_asn: "ASN",
+                lbl_org: "Org",
+                lbl_coords: "Koord"
+            },
+            fr: {
+                appTitle: "IPHyper",
+                targetList: "Liste des cibles",
+                processQueue: "File d'attente",
+                waitingData: "En attente de données...",
+                editBtn: "Modifier",
+                retryBtn: "Réessayer",
+                systemStatus: "État du système",
+                statusDesc: "Survolez les marqueurs pour voir les détails.",
+                defineTarget: "Définir les cibles",
+                enterIps: "Entrez les adresses IPv4 à analyser.",
+                startAnalysis: "Lancer l'analyse",
+                loadDemo: "Charger démo",
+                cancelBtn: "Annuler",
+                addBtn: "Ajouter",
+                notFound: "Non trouvé",
+                waiting: "En attente...",
+                emptyList: "La liste est vide",
+                invalidIP: "Aucune adresse IP valide trouvée.",
+                errorTitle: "Erreur",
+                quotaError: "Quota quotidien dépassé.",
+                lbl_region: "Région",
+                lbl_postal: "Postal",
+                lbl_timezone: "Fuseau horaire",
+                lbl_asn: "ASN",
+                lbl_org: "Org",
+                lbl_coords: "Coords"
+            },
+            id: {
+                appTitle: "IPHyper",
+                targetList: "Daftar Target",
+                processQueue: "Antrian Proses",
+                waitingData: "Menunggu data...",
+                editBtn: "Edit",
+                retryBtn: "Coba Lagi",
+                systemStatus: "Status Sistem",
+                statusDesc: "Arahkan kursor ke penanda untuk melihat detail.",
+                defineTarget: "Tentukan Target",
+                enterIps: "Masukkan alamat IPv4 untuk dianalisis.",
+                startAnalysis: "Mulai Analisis",
+                loadDemo: "Muat data demo",
+                cancelBtn: "Batal",
+                addBtn: "Tambah",
+                notFound: "Tidak Ditemukan",
+                waiting: "Menunggu...",
+                emptyList: "Daftar kosong",
+                invalidIP: "Tidak ada alamat IP yang valid ditemukan.",
+                errorTitle: "Kesalahan",
+                quotaError: "Kuota harian terlampaui.",
+                lbl_region: "Wilayah",
+                lbl_postal: "Pos",
+                lbl_timezone: "Zona Waktu",
+                lbl_asn: "ASN",
+                lbl_org: "Org",
+                lbl_coords: "Koord"
+            }
         };
 
         function detectLanguage() {
@@ -575,49 +884,61 @@
             const group = locationGroups[locKey];
             if (!group || group.length === 0) return;
 
-            // Generate Rich Content - Added max-h and scroll here
+            // Generate Rich Content - Country info once, then IPs
             let content = `<div class="p-3 min-w-[300px] text-left max-h-[300px] overflow-y-auto custom-scroll">`;
             
-            group.forEach((item, index) => {
-                const d = item.data;
-                const isLast = index === group.length - 1;
+            // First item - show location header
+            if (group.length > 0) {
+                const firstData = group[0].data;
                 
+                // Location Header (shown once)
                 content += `
-                    <div class="${isLast ? '' : 'border-b border-slate-700 pb-3 mb-3'}">
+                    <div class="border-b border-slate-700 pb-3 mb-3">
                         <!-- Header with Flag and Country -->
                         <div class="flex items-center gap-2 mb-2">
-                            ${d.flag ? `<img src="${d.flag.img}" class="w-6 h-4 object-cover rounded shadow-sm border border-slate-600" alt="${d.country_code}">` : ''}
-                            <span class="font-bold text-white text-sm">${d.city}, ${d.country}</span>
-                            <span class="text-[10px] text-slate-400 font-mono ml-auto">${d.continent_code}</span>
+                            ${firstData.flag ? `<img src="${firstData.flag.img}" class="w-6 h-4 object-cover rounded shadow-sm border border-slate-600" alt="${firstData.country_code}">` : ''}
+                            <span class="font-bold text-white text-sm">${firstData.city}, ${firstData.country}</span>
+                            <span class="text-[10px] text-slate-400 font-mono ml-auto">${firstData.continent_code}</span>
                         </div>
-
-                        <!-- IP & Org -->
-                        <div class="mb-2 bg-slate-800/50 p-2 rounded border border-slate-700/50">
-                             <div class="flex items-center justify-between mb-1">
-                                <span class="font-mono text-xs text-indigo-400 font-bold">${item.ip}</span>
-                                <span class="text-[10px] text-slate-500">ASN: ${d.connection.asn || '-'}</span>
-                             </div>
-                             <div class="text-[10px] text-slate-300 truncate" title="${d.connection.org}">
-                                <i class="fa-solid fa-building text-slate-500 mr-1"></i> ${d.connection.org || d.connection.isp}
-                             </div>
-                             <div class="text-[10px] text-slate-400 truncate mt-0.5">
-                                <i class="fa-solid fa-globe text-slate-500 mr-1"></i> ${d.connection.domain || '-'}
-                             </div>
-                        </div>
-
-                        <!-- Grid Details -->
+                        
+                        <!-- Grid Details (Location Info) -->
                         <div class="grid grid-cols-2 gap-x-2 gap-y-1 text-[10px]">
-                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_region')}:</span> ${d.region}</div>
-                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_postal')}:</span> ${d.postal}</div>
-                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_timezone')}:</span> ${d.timezone.id}</div>
-                            <div class="text-slate-400"><span class="text-slate-500">UTC:</span> ${d.timezone.utc}</div>
+                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_region')}:</span> ${firstData.region}</div>
+                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_postal')}:</span> ${firstData.postal}</div>
+                            <div class="text-slate-400"><span class="text-slate-500">${t('lbl_timezone')}:</span> ${firstData.timezone.id}</div>
+                            <div class="text-slate-400"><span class="text-slate-500">UTC:</span> ${firstData.timezone.utc}</div>
                             <div class="col-span-2 text-slate-500 border-t border-slate-700/50 pt-1 mt-1 font-mono text-[9px] text-center">
-                                ${d.latitude}, ${d.longitude}
+                                ${firstData.latitude}, ${firstData.longitude}
                             </div>
                         </div>
                     </div>
                 `;
-            });
+                
+                // Now list all IPs
+                group.forEach((item, index) => {
+                    const d = item.data;
+                    const isLast = index === group.length - 1;
+                    
+                    content += `
+                        <div class="${isLast ? '' : 'border-b border-slate-700 pb-3 mb-3'}">
+                            <!-- IP & Org -->
+                            <div class="bg-slate-800/50 p-2 rounded border border-slate-700/50">
+                                 <div class="flex items-center justify-between mb-1">
+                                    <span class="font-mono text-xs text-indigo-400 font-bold">${item.ip}</span>
+                                    <span class="text-[10px] text-slate-500">ASN: ${d.connection.asn || '-'}</span>
+                                 </div>
+                                 <div class="text-[10px] text-slate-300 truncate" title="${d.connection.org}">
+                                    <i class="fa-solid fa-building text-slate-500 mr-1"></i> ${d.connection.org || d.connection.isp}
+                                 </div>
+                                 <div class="text-[10px] text-slate-400 truncate mt-0.5">
+                                    <i class="fa-solid fa-globe text-slate-500 mr-1"></i> ${d.connection.domain || '-'}
+                                 </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            
             content += `</div>`;
             
             const icon = L.divIcon({
@@ -630,42 +951,59 @@
             const marker = L.marker([lat, lng], { icon: icon }).addTo(map);
             
             const popup = L.popup({
-                offset: [0, -5],
+                offset: [0, 0],
                 closeButton: false,
                 autoClose: false,
                 closeOnClick: false,
+                autoPan: false,
                 className: 'custom-popup-hover' 
             }).setContent(content);
 
             marker.bindPopup(popup);
 
             let timer;
+            let isHoveringPopup = false;
+            let isHoveringMarker = false;
 
             marker.on('mouseover', function () {
+                isHoveringMarker = true;
                 if (timer) clearTimeout(timer);
                 this.openPopup();
             });
 
             marker.on('mouseout', function () {
+                isHoveringMarker = false;
                 timer = setTimeout(() => {
-                    this.closePopup();
-                }, 300); 
+                    if (!isHoveringPopup && !isHoveringMarker) {
+                        this.closePopup();
+                    }
+                }, 200); 
             });
 
             marker.on('popupopen', function (e) {
                 const wrapper = e.popup.getElement(); 
 
                 if (wrapper) {
-                    wrapper.addEventListener('mouseover', () => {
+                    wrapper.addEventListener('mouseenter', () => {
+                        isHoveringPopup = true;
                         if (timer) clearTimeout(timer);
                     });
                     
-                    wrapper.addEventListener('mouseout', () => {
+                    wrapper.addEventListener('mouseleave', () => {
+                        isHoveringPopup = false;
                         timer = setTimeout(() => {
-                            marker.closePopup();
-                        }, 300);
+                            if (!isHoveringPopup && !isHoveringMarker) {
+                                marker.closePopup();
+                            }
+                        }, 200);
                     });
                 }
+            });
+
+            marker.on('popupclose', function () {
+                isHoveringPopup = false;
+                isHoveringMarker = false;
+                if (timer) clearTimeout(timer);
             });
 
             markers[locKey] = marker;
