@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>IPHyper - Network Analyzer</title>
+    <title>iphyper - network analyzer</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Mapbox GL JS CSS -->
@@ -168,99 +168,115 @@
 
 <body class="h-screen flex flex-col overflow-hidden font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
-    <!-- Header -->
-    <header
-        class="bg-black border-b border-[#333] shadow-sm z-30 px-4 py-3 md:px-6 md:py-4 flex justify-between items-center shrink-0 backdrop-blur-md bg-opacity-80">
-        <div class="flex items-center gap-3">
-            <button onclick="toggleSidebar()" class="md:hidden text-[#888] hover:text-white p-1 transition-colors">
-                <i class="fa-solid fa-bars text-xl"></i>
-            </button>
-            <div class="w-8 h-8 rounded-md bg-white text-black flex items-center justify-center shadow-sm">
-                <i class="fa-solid fa-bolt"></i>
-            </div>
-            <h1 class="text-lg font-bold tracking-tight text-white hidden md:block" data-i18n="appTitle">IPHyper <span
-                    class="text-[10px] font-medium text-[#666] ml-1 px-2 py-0.5 rounded-full border border-[#333] uppercase tracking-wider">Lite</span>
-            </h1>
-        </div>
+    <div class="flex h-screen overflow-hidden font-sans antialiased selection:bg-white selection:text-black relative">
 
-        <div class="flex items-center gap-3">
-            <select id="lang-selector" onchange="changeLanguage(this.value)"
-                class="bg-black text-[#888] text-xs border border-[#333] rounded px-2 py-1 outline-none focus:border-white focus:text-white transition-colors cursor-pointer hover:border-[#555]">
-                <option value="en">English</option>
-                <option value="tr">Türkçe</option>
-                <option value="es">Español</option>
-                <option value="zh">中文</option>
-                <option value="hi">हिन्दी</option>
-                <option value="ar">العربية</option>
-                <option value="pt">Português</option>
-                <option value="bn">বাংলা</option>
-                <option value="ru">Русский</option>
-                <option value="ja">日本語</option>
-                <option value="de">Deutsch</option>
-                <option value="fr">Français</option>
-                <option value="id">Bahasa Indonesia</option>
-            </select>
-
-            <button onclick="openInputModal()"
-                class="md:hidden text-xs bg-white text-black hover:bg-[#ddd] px-3 py-1.5 rounded-md shadow-sm font-medium transition-colors"
-                data-i18n="addBtn">
-                <i class="fa-solid fa-plus"></i> Add
-            </button>
-            <div class="text-xs font-mono text-[#666] bg-[#111] px-3 py-1.5 rounded border border-[#333]">
-                <span id="status-count" class="text-white font-bold">0</span> / <span id="total-count">0</span>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <div class="flex flex-1 h-full overflow-hidden relative">
-
-        <!-- Sidebar -->
-        <aside id="sidebar"
-            class="absolute md:relative inset-y-0 left-0 w-3/4 md:w-80 bg-black border-r border-[#333] flex flex-col z-20 shadow-2xl md:shadow-none transition-transform duration-300 mobile-sidebar-hidden md:transform-none">
-            <div class="p-4 border-b border-[#333] bg-black flex justify-between items-center">
-                <div>
-                    <h2 class="font-semibold text-white text-sm" data-i18n="targetList">Target List</h2>
-                    <p class="text-[10px] uppercase tracking-wider text-[#666] font-bold mt-1" data-i18n="processQueue">
-                        Process Queue</p>
+        <!-- Sidebar Area (Header + List) -->
+        <div class="w-full md:w-80 flex flex-col h-full z-30 bg-black border-r border-[#222] absolute md:relative transition-transform duration-300 mobile-sidebar-hidden md:transform-none" id="sidebar-wrapper">
+            
+            <!-- Sidebar Header -->
+            <header class="bg-black border-b border-[#222] px-4 py-4 flex justify-between items-center shrink-0">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-md bg-white text-black flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.3)]">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h1 class="text-lg font-bold tracking-tight text-white" data-i18n="appTitle">iphyper <span class="text-[10px] font-medium text-[#666] ml-1 px-2 py-0.5 rounded-full border border-[#333] uppercase tracking-wider">Lite</span></h1>
                 </div>
-                <button onclick="toggleSidebar()" class="md:hidden text-[#666] hover:text-white p-2 transition-colors">
+                <button onclick="toggleSidebar()" class="md:hidden text-[#666] hover:text-white transition-colors">
                     <i class="fa-solid fa-xmark text-lg"></i>
                 </button>
-                <button onclick="openInputModal()"
-                    class="hidden md:block text-[#666] hover:text-white transition-colors p-2 rounded hover:bg-[#111]">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                </button>
-            </div>
+            </header>
 
-            <div id="ip-list-container" class="flex-1 overflow-y-auto custom-scroll p-3 space-y-2">
-                <div class="flex flex-col items-center justify-center h-40 text-[#444]">
-                    <i class="fa-solid fa-layer-group text-3xl mb-3 opacity-20"></i>
-                    <p class="text-xs" data-i18n="waitingData">Waiting for data...</p>
+            <!-- Sidebar Content -->
+            <aside id="sidebar" class="flex flex-col flex-1 overflow-hidden">
+                <div class="p-4 border-b border-[#222] bg-black flex justify-between items-center">
+                    <div>
+                        <h2 class="font-semibold text-white text-sm" data-i18n="targetList">Target List</h2>
+                        <p class="text-[10px] uppercase tracking-wider text-[#666] font-bold mt-1" data-i18n="processQueue">Process Queue</p>
+                    </div>
+                    <button onclick="openInputModal()" class="text-[#666] hover:text-white transition-colors p-2 rounded hover:bg-[#111]" title="Edit List">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+                
+                <div id="ip-list-container" class="flex-1 overflow-y-auto custom-scroll p-3 space-y-2 relative">
+                    <!-- Empty State (Filled dynamically) -->
+                </div>
+
+                <!-- Sidebar Footer Actions -->
+                <div class="p-4 border-t border-[#222] bg-black flex gap-2 shrink-0">
+                    <button onclick="openInputModal()" class="flex-1 bg-[#111] hover:bg-[#222] text-white font-medium py-2.5 px-2 rounded-md text-xs border border-[#333] hover:border-[#555] transition-all duration-200 flex items-center justify-center gap-2 group">
+                        <i class="fa-solid fa-plus text-[#666] group-hover:text-white transition-colors"></i> <span data-i18n="addBtn">Add IPs</span>
+                    </button>
+                    <button onclick="startProcessing()" id="refresh-btn" class="flex-1 bg-white hover:bg-[#f0f0f0] text-black font-medium py-2.5 px-2 rounded-md text-xs border border-white hover:border-[#ddd] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 shadow-[0_0_10px_rgba(255,255,255,0.1)]">
+                        <i class="fa-solid fa-play mr-1"></i> <span data-i18n="startAnalysis">Start</span>
+                    </button>
+                </div>
+            </aside>
+        </div>
+        
+        <div id="sidebar-overlay" onclick="toggleSidebar()" class="absolute inset-0 bg-black/50 z-20 hidden md:hidden backdrop-blur-sm transition-opacity"></div>
+
+        <!-- Map Area -->
+        <main class="flex-1 relative bg-black w-full h-full">
+            
+            <!-- Mobile Menu Toggle (Visible only on mobile) -->
+            <button onclick="toggleSidebar()" class="absolute top-4 left-4 md:hidden z-50 bg-black/80 text-white p-2 rounded-md border border-[#333] backdrop-blur-md">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Top Right Controls (Floating) -->
+            <div class="absolute top-4 right-4 z-50 flex items-center gap-3">
+                 <div class="bg-black/80 backdrop-blur-md border border-[#333] p-1.5 rounded-lg flex items-center gap-3 shadow-2xl">
+                    
+                    <!-- Custom Language Dropdown -->
+                    <div class="relative" id="lang-dropdown-container">
+                        <button onclick="toggleLangDropdown()" class="flex items-center gap-2 text-[#ccc] hover:text-white text-xs font-medium px-2 py-1 rounded hover:bg-[#222] transition-colors outline-none">
+                            <span id="current-lang-label">EN</span>
+                            <i class="fa-solid fa-chevron-down text-[10px] text-[#666]"></i>
+                        </button>
+
+                        <!-- Dropdown Menu -->
+                        <div id="lang-dropdown-menu" class="absolute top-full right-0 mt-2 w-32 bg-black border border-[#333] rounded-lg shadow-2xl hidden overflow-hidden">
+                            <div class="max-h-60 overflow-y-auto custom-scroll py-1">
+                                <button onclick="selectLanguage('en')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>English</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-en"></i>
+                                </button>
+                                <button onclick="selectLanguage('tr')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>Türkçe</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-tr"></i>
+                                </button>
+                                <button onclick="selectLanguage('es')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>Español</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-es"></i>
+                                </button>
+                                <button onclick="selectLanguage('de')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>Deutsch</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-de"></i>
+                                </button>
+                                <button onclick="selectLanguage('fr')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>Français</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-fr"></i>
+                                </button>
+                                <button onclick="selectLanguage('zh')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>中文</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-zh"></i>
+                                </button>
+                                <button onclick="selectLanguage('ja')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>日本語</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-ja"></i>
+                                </button>
+                                <button onclick="selectLanguage('ru')" class="w-full text-left px-3 py-2 text-xs text-[#ccc] hover:bg-[#111] hover:text-white transition-colors flex items-center justify-between group">
+                                    <span>Русский</span> <i class="fa-solid fa-check text-white opacity-0 group-[.active]:opacity-100" id="lang-check-ru"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="h-4 w-[1px] bg-[#333]"></div>
+
+                    <div class="text-xs font-mono text-[#888] px-2 flex items-center gap-2">
+                        <span id="status-count" class="text-white font-bold">0</span> <span class="text-[#444]">/</span> <span id="total-count">0</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="p-4 border-t border-[#333] bg-black flex gap-2">
-                <button onclick="openInputModal()"
-                    class="flex-1 bg-black hover:bg-[#111] text-white font-medium py-2 px-2 rounded-md text-xs border border-[#333] hover:border-white transition-all duration-200">
-                    <i class="fa-solid fa-pen mr-1"></i> <span data-i18n="editBtn">Edit</span>
-                </button>
-                <button onclick="startProcessing()" id="refresh-btn"
-                    class="flex-1 bg-white hover:bg-[#f0f0f0] text-black font-medium py-2 px-2 rounded-md text-xs border border-white hover:border-[#ddd] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200">
-                    <i class="fa-solid fa-rotate-right mr-1"></i> <span data-i18n="retryBtn">Retry</span>
-                </button>
-            </div>
-        </aside>
-
-        <div id="sidebar-overlay" onclick="toggleSidebar()"
-            class="absolute inset-0 bg-black/50 z-10 hidden md:hidden backdrop-blur-sm transition-opacity"></div>
-
-        <!-- Map -->
-        <main class="flex-1 relative bg-black w-full h-full">
             <div id="map"></div>
-
-            <div
-                class="absolute bottom-2 right-2 bg-black/80 backdrop-blur-md border border-[#333] p-4 rounded-lg shadow-2xl z-[500] max-w-xs hidden md:block">
+            
+            <div class="absolute bottom-4 right-4 bg-black/80 backdrop-blur-md border border-[#333] p-4 rounded-lg shadow-2xl z-[500] max-w-[13rem] hidden md:block">
                 <h3 class="font-bold text-white mb-2 text-xs uppercase tracking-wide flex items-center gap-2">
                     <i class="fa-solid fa-shield-halved text-white"></i> <span data-i18n="systemStatus">System
                         Status</span>
@@ -340,7 +356,7 @@
         // --- I18N DATA ---
         const translations = {
             en: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Target List",
                 processQueue: "Process Queue",
                 waitingData: "Waiting for data...",
@@ -370,7 +386,7 @@
                 lbl_coords: "Coords"
             },
             tr: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Hedef Listesi",
                 processQueue: "İşlem Kuyruğu",
                 waitingData: "Veri bekleniyor...",
@@ -399,7 +415,7 @@
                 lbl_coords: "Konum"
             },
             es: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Lista de objetivos",
                 processQueue: "Cola de proceso",
                 waitingData: "Esperando datos...",
@@ -427,7 +443,7 @@
                 lbl_coords: "Coords"
             },
             zh: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "目标列表",
                 processQueue: "处理队列",
                 waitingData: "等待数据...",
@@ -455,7 +471,7 @@
                 lbl_coords: "坐标"
             },
             hi: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "लक्ष्य सूची",
                 processQueue: "प्रक्रिया कतार",
                 waitingData: "डेटा की प्रतीक्षा है...",
@@ -483,7 +499,7 @@
                 lbl_coords: "निर्देशांक"
             },
             ar: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "قائمة الأهداف",
                 processQueue: "قائمة الانتظار",
                 waitingData: "انتظار البيانات...",
@@ -511,7 +527,7 @@
                 lbl_coords: "إحداثيات"
             },
             pt: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Lista de Alvos",
                 processQueue: "Fila de Processamento",
                 waitingData: "Aguardando dados...",
@@ -539,7 +555,7 @@
                 lbl_coords: "Coords"
             },
             bn: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "টার্গেট তালিকা",
                 processQueue: "প্রসেস কিউ",
                 waitingData: "ডেটার জন্য অপেক্ষা করা হচ্ছে...",
@@ -567,7 +583,7 @@
                 lbl_coords: "স্থানাঙ্ক"
             },
             ru: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Список целей",
                 processQueue: "Очередь обработки",
                 waitingData: "Ожидание данных...",
@@ -595,7 +611,7 @@
                 lbl_coords: "Координаты"
             },
             ja: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "ターゲットリスト",
                 processQueue: "処理キュー",
                 waitingData: "データを待機中...",
@@ -623,7 +639,7 @@
                 lbl_coords: "座標"
             },
             de: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Zielliste",
                 processQueue: "Verarbeitungswarteschlange",
                 waitingData: "Warte auf Daten...",
@@ -651,7 +667,7 @@
                 lbl_coords: "Koord"
             },
             fr: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Liste des cibles",
                 processQueue: "File d'attente",
                 waitingData: "En attente de données...",
@@ -679,7 +695,7 @@
                 lbl_coords: "Coords"
             },
             id: {
-                appTitle: "IPHyper",
+                appTitle: "iphyper",
                 targetList: "Daftar Target",
                 processQueue: "Antrian Proses",
                 waitingData: "Menunggu data...",
@@ -716,20 +732,46 @@
             return 'en';
         }
 
+        // --- CUSTOM DROPDOWN LOGIC ---
+        function toggleLangDropdown() {
+            const menu = document.getElementById('lang-dropdown-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const container = document.getElementById('lang-dropdown-container');
+            const menu = document.getElementById('lang-dropdown-menu');
+            if (!container.contains(event.target) && !menu.classList.contains('hidden')) {
+                menu.classList.add('hidden');
+            }
+        });
+
+        function selectLanguage(lang) {
+            changeLanguage(lang);
+            document.getElementById('lang-dropdown-menu').classList.add('hidden');
+        }
+
         function changeLanguage(lang) {
             currentLang = lang;
-            document.getElementById('lang-selector').value = lang;
-
+            
+            // Update Dropdown Label
+            document.getElementById('current-lang-label').innerText = lang.toUpperCase();
+            
+            // Update Checkmarks
+            document.querySelectorAll('[id^="lang-check-"]').forEach(el => el.classList.add('opacity-0'));
+            const activeCheck = document.getElementById(`lang-check-${lang}`);
+            if(activeCheck) activeCheck.classList.remove('opacity-0');
+            
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (t(key)) {
                     el.innerText = t(key);
                 }
             });
-
+            
             if (currentIpList.length === 0) {
-                const container = document.getElementById('ip-list-container');
-                container.innerHTML = `<div class="flex flex-col items-center justify-center h-40 text-slate-500"><i class="fa-solid fa-layer-group text-3xl mb-3 opacity-20"></i><p class="text-xs">${t('waitingData')}</p></div>`;
+                 initList(); // Re-render empty state with new language
             }
         }
 
@@ -932,7 +974,20 @@
             container.innerHTML = '';
 
             if (currentIpList.length === 0) {
-                container.innerHTML = `<div class="flex flex-col items-center justify-center h-40 text-[#444]"><i class="fa-solid fa-list-ul text-2xl mb-3 opacity-20"></i><p class="text-xs">${t('emptyList')}</p></div>`;
+                container.innerHTML = `
+                    <div class="flex flex-col items-center justify-center h-full text-[#444] space-y-4">
+                        <div class="w-16 h-16 rounded-full bg-[#111] border border-[#222] flex items-center justify-center mb-2">
+                            <i class="fa-solid fa-layer-group text-2xl opacity-40 text-[#666]"></i>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-xs font-medium text-[#888] mb-1">${t('waitingData')}</p>
+                            <p class="text-[10px] text-[#555] max-w-[200px] mx-auto">Add IP addresses to visualize them on the globe.</p>
+                        </div>
+                        <button onclick="openInputModal()" class="bg-[#111] hover:bg-white hover:text-black text-[#ccc] text-xs px-4 py-2 rounded-md border border-[#333] hover:border-white transition-all duration-300 flex items-center gap-2 group">
+                            <i class="fa-solid fa-plus text-[#666] group-hover:text-black transition-colors"></i> <span>Start Analysis</span>
+                        </button>
+                    </div>
+                `;
                 return;
             }
 
