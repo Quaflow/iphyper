@@ -4,6 +4,7 @@ from geoip_resolver import lookup_ip
 
 from datetime import datetime, timedelta
 from config import settings
+from formatters import to_ipwhois_format
 
 app = Flask(__name__)
 
@@ -11,18 +12,17 @@ app = Flask(__name__)
 @app.route("/ip/<ip>")
 def ip_lookup(ip):
 	"""Perform an IP lookup using local GeoLite2 databases.
-	
-	Query param:
-		raw=1  -> returns raw/normalized result (currently identical)
+
+	Query params:
+		raw=1        -> returns internal normalized payload
+		compat=ipwhois -> returns ipwho.is compatible payload
 	"""
 	print(f"[+] Lookup request for IP: {ip}")
 	raw = request.args.get("raw", "0").lower() in ("1", "true", "yes")
+	compat = request.args.get("compat", "").lower()
 
-	start_time = datetime.now()
 	data, err = lookup_ip(ip)
-	end_time = datetime.now()
-	elapsed_time = (end_time - start_time).total_seconds()
-	print(f"[+] Lookup completed in {elapsed_time:.2f} seconds.")
+	
 
 	if err == "invalid_ip":
 		return jsonify({"error": "invalid_ip", "ip": ip}), 400
@@ -30,6 +30,9 @@ def ip_lookup(ip):
 		return jsonify({"error": "ip_not_found", "ip": ip}), 404
 	if err and err.startswith("lookup_error"):
 		return jsonify({"error": "lookup_failed", "details": err}), 502
+
+	if compat == "ipwhois":
+		return jsonify(to_ipwhois_format(data))
 
 	# Raw is currently equal to the normalized output
 	return jsonify(data)
