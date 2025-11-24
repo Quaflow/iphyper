@@ -5,9 +5,9 @@
     "capital": "Saint John's",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ag.svg",
-      "png": "https://flagcdn.com/w320/ag.png"
+      "emoji": "🇦🇬",
+      "emoji_unicode": "U+1F1E6 U+1F1EC",
+      "svg": "https://flagcdn.com/ag.svg"
     }
   },
   "BT": {
@@ -15,13 +15,13 @@
     "calling_code": "+975",
     "capital": "Thimphu",
     "borders": [
-      "CHN",
-      "IND"
+      "CN",
+      "IN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bt.svg",
-      "png": "https://flagcdn.com/w320/bt.png"
+      "emoji": "🇧🇹",
+      "emoji_unicode": "U+1F1E7 U+1F1F9",
+      "svg": "https://flagcdn.com/bt.svg"
     }
   },
   "IT": {
@@ -29,17 +29,17 @@
     "calling_code": "+39",
     "capital": "Rome",
     "borders": [
-      "AUT",
-      "FRA",
-      "SMR",
-      "SVN",
-      "CHE",
-      "VAT"
+      "AT",
+      "FR",
+      "SM",
+      "SI",
+      "CH",
+      "VA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/it.svg",
-      "png": "https://flagcdn.com/w320/it.png"
+      "emoji": "🇮🇹",
+      "emoji_unicode": "U+1F1EE U+1F1F9",
+      "svg": "https://flagcdn.com/it.svg"
     }
   },
   "TV": {
@@ -48,9 +48,9 @@
     "capital": "Funafuti",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tv.svg",
-      "png": "https://flagcdn.com/w320/tv.png"
+      "emoji": "🇹🇻",
+      "emoji_unicode": "U+1F1F9 U+1F1FB",
+      "svg": "https://flagcdn.com/tv.svg"
     }
   },
   "AI": {
@@ -59,9 +59,9 @@
     "capital": "The Valley",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ai.svg",
-      "png": "https://flagcdn.com/w320/ai.png"
+      "emoji": "🇦🇮",
+      "emoji_unicode": "U+1F1E6 U+1F1EE",
+      "svg": "https://flagcdn.com/ai.svg"
     }
   },
   "AU": {
@@ -70,9 +70,9 @@
     "capital": "Canberra",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/au.svg",
-      "png": "https://flagcdn.com/w320/au.png"
+      "emoji": "🇦🇺",
+      "emoji_unicode": "U+1F1E6 U+1F1FA",
+      "svg": "https://flagcdn.com/au.svg"
     }
   },
   "BZ": {
@@ -80,13 +80,13 @@
     "calling_code": "+501",
     "capital": "Belmopan",
     "borders": [
-      "GTM",
-      "MEX"
+      "GT",
+      "MX"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bz.svg",
-      "png": "https://flagcdn.com/w320/bz.png"
+      "emoji": "🇧🇿",
+      "emoji_unicode": "U+1F1E7 U+1F1FF",
+      "svg": "https://flagcdn.com/bz.svg"
     }
   },
   "VU": {
@@ -95,9 +95,9 @@
     "capital": "Port Vila",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/vu.svg",
-      "png": "https://flagcdn.com/w320/vu.png"
+      "emoji": "🇻🇺",
+      "emoji_unicode": "U+1F1FB U+1F1FA",
+      "svg": "https://flagcdn.com/vu.svg"
     }
   },
   "BY": {
@@ -105,16 +105,16 @@
     "calling_code": "+375",
     "capital": "Minsk",
     "borders": [
-      "LVA",
-      "LTU",
-      "POL",
-      "RUS",
-      "UKR"
+      "LV",
+      "LT",
+      "PL",
+      "RU",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/by.svg",
-      "png": "https://flagcdn.com/w320/by.png"
+      "emoji": "🇧🇾",
+      "emoji_unicode": "U+1F1E7 U+1F1FE",
+      "svg": "https://flagcdn.com/by.svg"
     }
   },
   "MU": {
@@ -123,9 +123,9 @@
     "capital": "Port Louis",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mu.svg",
-      "png": "https://flagcdn.com/w320/mu.png"
+      "emoji": "🇲🇺",
+      "emoji_unicode": "U+1F1F2 U+1F1FA",
+      "svg": "https://flagcdn.com/mu.svg"
     }
   },
   "LA": {
@@ -133,16 +133,16 @@
     "calling_code": "+856",
     "capital": "Vientiane",
     "borders": [
-      "MMR",
-      "KHM",
-      "CHN",
-      "THA",
-      "VNM"
+      "MM",
+      "KH",
+      "CN",
+      "TH",
+      "VN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/la.svg",
-      "png": "https://flagcdn.com/w320/la.png"
+      "emoji": "🇱🇦",
+      "emoji_unicode": "U+1F1F1 U+1F1E6",
+      "svg": "https://flagcdn.com/la.svg"
     }
   },
   "SN": {
@@ -150,16 +150,16 @@
     "calling_code": "+221",
     "capital": "Dakar",
     "borders": [
-      "GMB",
-      "GIN",
-      "GNB",
-      "MLI",
-      "MRT"
+      "GM",
+      "GN",
+      "GW",
+      "ML",
+      "MR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sn.svg",
-      "png": "https://flagcdn.com/w320/sn.png"
+      "emoji": "🇸🇳",
+      "emoji_unicode": "U+1F1F8 U+1F1F3",
+      "svg": "https://flagcdn.com/sn.svg"
     }
   },
   "TR": {
@@ -167,19 +167,19 @@
     "calling_code": "+90",
     "capital": "Ankara",
     "borders": [
-      "ARM",
-      "AZE",
-      "BGR",
-      "GEO",
-      "GRC",
-      "IRN",
-      "IRQ",
-      "SYR"
+      "AM",
+      "AZ",
+      "BG",
+      "GE",
+      "GR",
+      "IR",
+      "IQ",
+      "SY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tr.svg",
-      "png": "https://flagcdn.com/w320/tr.png"
+      "emoji": "🇹🇷",
+      "emoji_unicode": "U+1F1F9 U+1F1F7",
+      "svg": "https://flagcdn.com/tr.svg"
     }
   },
   "BO": {
@@ -187,16 +187,16 @@
     "calling_code": "+591",
     "capital": "Sucre",
     "borders": [
-      "ARG",
-      "BRA",
-      "CHL",
-      "PRY",
-      "PER"
+      "AR",
+      "BR",
+      "CL",
+      "PY",
+      "PE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bo.svg",
-      "png": "https://flagcdn.com/w320/bo.png"
+      "emoji": "🇧🇴",
+      "emoji_unicode": "U+1F1E7 U+1F1F4",
+      "svg": "https://flagcdn.com/bo.svg"
     }
   },
   "LK": {
@@ -205,9 +205,9 @@
     "capital": "Sri Jayawardenepura Kotte",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lk.svg",
-      "png": "https://flagcdn.com/w320/lk.png"
+      "emoji": "🇱🇰",
+      "emoji_unicode": "U+1F1F1 U+1F1F0",
+      "svg": "https://flagcdn.com/lk.svg"
     }
   },
   "NF": {
@@ -216,9 +216,9 @@
     "capital": "Kingston",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nf.svg",
-      "png": "https://flagcdn.com/w320/nf.png"
+      "emoji": "🇳🇫",
+      "emoji_unicode": "U+1F1F3 U+1F1EB",
+      "svg": "https://flagcdn.com/nf.svg"
     }
   },
   "CN": {
@@ -226,27 +226,27 @@
     "calling_code": "+86",
     "capital": "Beijing",
     "borders": [
-      "AFG",
-      "BTN",
-      "MMR",
-      "HKG",
-      "IND",
-      "KAZ",
-      "NPL",
-      "PRK",
-      "KGZ",
-      "LAO",
-      "MAC",
-      "MNG",
-      "PAK",
-      "RUS",
-      "TJK",
-      "VNM"
+      "AF",
+      "BT",
+      "MM",
+      "HK",
+      "IN",
+      "KZ",
+      "NP",
+      "KP",
+      "KG",
+      "LA",
+      "MO",
+      "MN",
+      "PK",
+      "RU",
+      "TJ",
+      "VN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cn.svg",
-      "png": "https://flagcdn.com/w320/cn.png"
+      "emoji": "🇨🇳",
+      "emoji_unicode": "U+1F1E8 U+1F1F3",
+      "svg": "https://flagcdn.com/cn.svg"
     }
   },
   "BQ": {
@@ -255,9 +255,9 @@
     "capital": "Kralendijk",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bq.svg",
-      "png": "https://flagcdn.com/w320/bq.png"
+      "emoji": "🇧🇶",
+      "emoji_unicode": "U+1F1E7 U+1F1F6",
+      "svg": "https://flagcdn.com/bq.svg"
     }
   },
   "GG": {
@@ -266,9 +266,9 @@
     "capital": "St. Peter Port",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gg.svg",
-      "png": "https://flagcdn.com/w320/gg.png"
+      "emoji": "🇬🇬",
+      "emoji_unicode": "U+1F1EC U+1F1EC",
+      "svg": "https://flagcdn.com/gg.svg"
     }
   },
   "SD": {
@@ -276,18 +276,18 @@
     "calling_code": "+249",
     "capital": "Khartoum",
     "borders": [
-      "CAF",
-      "TCD",
-      "EGY",
-      "ERI",
-      "ETH",
-      "LBY",
-      "SSD"
+      "CF",
+      "TD",
+      "EG",
+      "ER",
+      "ET",
+      "LY",
+      "SS"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sd.svg",
-      "png": "https://flagcdn.com/w320/sd.png"
+      "emoji": "🇸🇩",
+      "emoji_unicode": "U+1F1F8 U+1F1E9",
+      "svg": "https://flagcdn.com/sd.svg"
     }
   },
   "YT": {
@@ -296,9 +296,9 @@
     "capital": "Mamoudzou",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/yt.svg",
-      "png": "https://flagcdn.com/w320/yt.png"
+      "emoji": "🇾🇹",
+      "emoji_unicode": "U+1F1FE U+1F1F9",
+      "svg": "https://flagcdn.com/yt.svg"
     }
   },
   "BL": {
@@ -307,9 +307,9 @@
     "capital": "Gustavia",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bl.svg",
-      "png": "https://flagcdn.com/w320/bl.png"
+      "emoji": "🇧🇱",
+      "emoji_unicode": "U+1F1E7 U+1F1F1",
+      "svg": "https://flagcdn.com/bl.svg"
     }
   },
   "VA": {
@@ -317,12 +317,12 @@
     "calling_code": "+3906698",
     "capital": "Vatican City",
     "borders": [
-      "ITA"
+      "IT"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/va.svg",
-      "png": "https://flagcdn.com/w320/va.png"
+      "emoji": "🇻🇦",
+      "emoji_unicode": "U+1F1FB U+1F1E6",
+      "svg": "https://flagcdn.com/va.svg"
     }
   },
   "TC": {
@@ -331,9 +331,9 @@
     "capital": "Cockburn Town",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tc.svg",
-      "png": "https://flagcdn.com/w320/tc.png"
+      "emoji": "🇹🇨",
+      "emoji_unicode": "U+1F1F9 U+1F1E8",
+      "svg": "https://flagcdn.com/tc.svg"
     }
   },
   "CW": {
@@ -342,9 +342,9 @@
     "capital": "Willemstad",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cw.svg",
-      "png": "https://flagcdn.com/w320/cw.png"
+      "emoji": "🇨🇼",
+      "emoji_unicode": "U+1F1E8 U+1F1FC",
+      "svg": "https://flagcdn.com/cw.svg"
     }
   },
   "BW": {
@@ -352,15 +352,15 @@
     "calling_code": "+267",
     "capital": "Gaborone",
     "borders": [
-      "NAM",
-      "ZAF",
-      "ZMB",
-      "ZWE"
+      "NA",
+      "ZA",
+      "ZM",
+      "ZW"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bw.svg",
-      "png": "https://flagcdn.com/w320/bw.png"
+      "emoji": "🇧🇼",
+      "emoji_unicode": "U+1F1E7 U+1F1FC",
+      "svg": "https://flagcdn.com/bw.svg"
     }
   },
   "BJ": {
@@ -368,15 +368,15 @@
     "calling_code": "+229",
     "capital": "Porto-Novo",
     "borders": [
-      "BFA",
-      "NER",
-      "NGA",
-      "TGO"
+      "BF",
+      "NE",
+      "NG",
+      "TG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bj.svg",
-      "png": "https://flagcdn.com/w320/bj.png"
+      "emoji": "🇧🇯",
+      "emoji_unicode": "U+1F1E7 U+1F1EF",
+      "svg": "https://flagcdn.com/bj.svg"
     }
   },
   "LT": {
@@ -384,15 +384,15 @@
     "calling_code": "+370",
     "capital": "Vilnius",
     "borders": [
-      "BLR",
-      "LVA",
-      "POL",
-      "RUS"
+      "BY",
+      "LV",
+      "PL",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lt.svg",
-      "png": "https://flagcdn.com/w320/lt.png"
+      "emoji": "🇱🇹",
+      "emoji_unicode": "U+1F1F1 U+1F1F9",
+      "svg": "https://flagcdn.com/lt.svg"
     }
   },
   "MS": {
@@ -401,9 +401,9 @@
     "capital": "Plymouth",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ms.svg",
-      "png": "https://flagcdn.com/w320/ms.png"
+      "emoji": "🇲🇸",
+      "emoji_unicode": "U+1F1F2 U+1F1F8",
+      "svg": "https://flagcdn.com/ms.svg"
     }
   },
   "VG": {
@@ -412,9 +412,9 @@
     "capital": "Road Town",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/vg.svg",
-      "png": "https://flagcdn.com/w320/vg.png"
+      "emoji": "🇻🇬",
+      "emoji_unicode": "U+1F1FB U+1F1EC",
+      "svg": "https://flagcdn.com/vg.svg"
     }
   },
   "BI": {
@@ -422,14 +422,14 @@
     "calling_code": "+257",
     "capital": "Gitega",
     "borders": [
-      "COD",
-      "RWA",
-      "TZA"
+      "CD",
+      "RW",
+      "TZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bi.svg",
-      "png": "https://flagcdn.com/w320/bi.png"
+      "emoji": "🇧🇮",
+      "emoji_unicode": "U+1F1E7 U+1F1EE",
+      "svg": "https://flagcdn.com/bi.svg"
     }
   },
   "UM": {
@@ -438,9 +438,9 @@
     "capital": "Washington DC",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/um.svg",
-      "png": "https://flagcdn.com/w320/um.png"
+      "emoji": "🇺🇲",
+      "emoji_unicode": "U+1F1FA U+1F1F2",
+      "svg": "https://flagcdn.com/um.svg"
     }
   },
   "IE": {
@@ -448,12 +448,12 @@
     "calling_code": "+353",
     "capital": "Dublin",
     "borders": [
-      "GBR"
+      "GB"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ie.svg",
-      "png": "https://flagcdn.com/w320/ie.png"
+      "emoji": "🇮🇪",
+      "emoji_unicode": "U+1F1EE U+1F1EA",
+      "svg": "https://flagcdn.com/ie.svg"
     }
   },
   "SB": {
@@ -462,9 +462,9 @@
     "capital": "Honiara",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sb.svg",
-      "png": "https://flagcdn.com/w320/sb.png"
+      "emoji": "🇸🇧",
+      "emoji_unicode": "U+1F1F8 U+1F1E7",
+      "svg": "https://flagcdn.com/sb.svg"
     }
   },
   "BM": {
@@ -473,9 +473,9 @@
     "capital": "Hamilton",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bm.svg",
-      "png": "https://flagcdn.com/w320/bm.png"
+      "emoji": "🇧🇲",
+      "emoji_unicode": "U+1F1E7 U+1F1F2",
+      "svg": "https://flagcdn.com/bm.svg"
     }
   },
   "FI": {
@@ -483,14 +483,14 @@
     "calling_code": "+358",
     "capital": "Helsinki",
     "borders": [
-      "NOR",
-      "SWE",
-      "RUS"
+      "NO",
+      "SE",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fi.svg",
-      "png": "https://flagcdn.com/w320/fi.png"
+      "emoji": "🇫🇮",
+      "emoji_unicode": "U+1F1EB U+1F1EE",
+      "svg": "https://flagcdn.com/fi.svg"
     }
   },
   "PE": {
@@ -498,16 +498,16 @@
     "calling_code": "+51",
     "capital": "Lima",
     "borders": [
-      "BOL",
-      "BRA",
-      "CHL",
-      "COL",
-      "ECU"
+      "BO",
+      "BR",
+      "CL",
+      "CO",
+      "EC"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pe.svg",
-      "png": "https://flagcdn.com/w320/pe.png"
+      "emoji": "🇵🇪",
+      "emoji_unicode": "U+1F1F5 U+1F1EA",
+      "svg": "https://flagcdn.com/pe.svg"
     }
   },
   "BD": {
@@ -515,13 +515,13 @@
     "calling_code": "+880",
     "capital": "Dhaka",
     "borders": [
-      "MMR",
-      "IND"
+      "MM",
+      "IN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bd.svg",
-      "png": "https://flagcdn.com/w320/bd.png"
+      "emoji": "🇧🇩",
+      "emoji_unicode": "U+1F1E7 U+1F1E9",
+      "svg": "https://flagcdn.com/bd.svg"
     }
   },
   "DK": {
@@ -529,12 +529,12 @@
     "calling_code": "+45",
     "capital": "Copenhagen",
     "borders": [
-      "DEU"
+      "DE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/dk.svg",
-      "png": "https://flagcdn.com/w320/dk.png"
+      "emoji": "🇩🇰",
+      "emoji_unicode": "U+1F1E9 U+1F1F0",
+      "svg": "https://flagcdn.com/dk.svg"
     }
   },
   "VC": {
@@ -543,9 +543,9 @@
     "capital": "Kingstown",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/vc.svg",
-      "png": "https://flagcdn.com/w320/vc.png"
+      "emoji": "🇻🇨",
+      "emoji_unicode": "U+1F1FB U+1F1E8",
+      "svg": "https://flagcdn.com/vc.svg"
     }
   },
   "DO": {
@@ -553,12 +553,12 @@
     "calling_code": "+1809",
     "capital": "Santo Domingo",
     "borders": [
-      "HTI"
+      "HT"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/do.svg",
-      "png": "https://flagcdn.com/w320/do.png"
+      "emoji": "🇩🇴",
+      "emoji_unicode": "U+1F1E9 U+1F1F4",
+      "svg": "https://flagcdn.com/do.svg"
     }
   },
   "MD": {
@@ -566,13 +566,13 @@
     "calling_code": "+373",
     "capital": "Chișinău",
     "borders": [
-      "ROU",
-      "UKR"
+      "RO",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/md.svg",
-      "png": "https://flagcdn.com/w320/md.png"
+      "emoji": "🇲🇩",
+      "emoji_unicode": "U+1F1F2 U+1F1E9",
+      "svg": "https://flagcdn.com/md.svg"
     }
   },
   "BG": {
@@ -580,16 +580,16 @@
     "calling_code": "+359",
     "capital": "Sofia",
     "borders": [
-      "GRC",
-      "MKD",
-      "ROU",
-      "SRB",
-      "TUR"
+      "GR",
+      "MK",
+      "RO",
+      "RS",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bg.svg",
-      "png": "https://flagcdn.com/w320/bg.png"
+      "emoji": "🇧🇬",
+      "emoji_unicode": "U+1F1E7 U+1F1EC",
+      "svg": "https://flagcdn.com/bg.svg"
     }
   },
   "CR": {
@@ -597,13 +597,13 @@
     "calling_code": "+506",
     "capital": "San José",
     "borders": [
-      "NIC",
-      "PAN"
+      "NI",
+      "PA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cr.svg",
-      "png": "https://flagcdn.com/w320/cr.png"
+      "emoji": "🇨🇷",
+      "emoji_unicode": "U+1F1E8 U+1F1F7",
+      "svg": "https://flagcdn.com/cr.svg"
     }
   },
   "NA": {
@@ -611,15 +611,15 @@
     "calling_code": "+264",
     "capital": "Windhoek",
     "borders": [
-      "AGO",
-      "BWA",
-      "ZAF",
-      "ZMB"
+      "AO",
+      "BW",
+      "ZA",
+      "ZM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/na.svg",
-      "png": "https://flagcdn.com/w320/na.png"
+      "emoji": "🇳🇦",
+      "emoji_unicode": "U+1F1F3 U+1F1E6",
+      "svg": "https://flagcdn.com/na.svg"
     }
   },
   "SJ": {
@@ -628,9 +628,9 @@
     "capital": "Longyearbyen",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sj.svg",
-      "png": "https://flagcdn.com/w320/sj.png"
+      "emoji": "🇸🇯",
+      "emoji_unicode": "U+1F1F8 U+1F1EF",
+      "svg": "https://flagcdn.com/sj.svg"
     }
   },
   "LU": {
@@ -638,14 +638,14 @@
     "calling_code": "+352",
     "capital": "Luxembourg",
     "borders": [
-      "BEL",
-      "FRA",
-      "DEU"
+      "BE",
+      "FR",
+      "DE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lu.svg",
-      "png": "https://flagcdn.com/w320/lu.png"
+      "emoji": "🇱🇺",
+      "emoji_unicode": "U+1F1F1 U+1F1FA",
+      "svg": "https://flagcdn.com/lu.svg"
     }
   },
   "RU": {
@@ -653,25 +653,25 @@
     "calling_code": "+73",
     "capital": "Moscow",
     "borders": [
-      "AZE",
-      "BLR",
-      "CHN",
-      "EST",
-      "FIN",
-      "GEO",
-      "KAZ",
-      "PRK",
-      "LVA",
-      "LTU",
-      "MNG",
-      "NOR",
-      "POL",
-      "UKR"
+      "AZ",
+      "BY",
+      "CN",
+      "EE",
+      "FI",
+      "GE",
+      "KZ",
+      "KP",
+      "LV",
+      "LT",
+      "MN",
+      "NO",
+      "PL",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ru.svg",
-      "png": "https://flagcdn.com/w320/ru.png"
+      "emoji": "🇷🇺",
+      "emoji_unicode": "U+1F1F7 U+1F1FA",
+      "svg": "https://flagcdn.com/ru.svg"
     }
   },
   "AE": {
@@ -679,13 +679,13 @@
     "calling_code": "+971",
     "capital": "Abu Dhabi",
     "borders": [
-      "OMN",
-      "SAU"
+      "OM",
+      "SA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ae.svg",
-      "png": "https://flagcdn.com/w320/ae.png"
+      "emoji": "🇦🇪",
+      "emoji_unicode": "U+1F1E6 U+1F1EA",
+      "svg": "https://flagcdn.com/ae.svg"
     }
   },
   "SX": {
@@ -693,12 +693,12 @@
     "calling_code": "+1721",
     "capital": "Philipsburg",
     "borders": [
-      "MAF"
+      "MF"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sx.svg",
-      "png": "https://flagcdn.com/w320/sx.png"
+      "emoji": "🇸🇽",
+      "emoji_unicode": "U+1F1F8 U+1F1FD",
+      "svg": "https://flagcdn.com/sx.svg"
     }
   },
   "BS": {
@@ -707,9 +707,9 @@
     "capital": "Nassau",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bs.svg",
-      "png": "https://flagcdn.com/w320/bs.png"
+      "emoji": "🇧🇸",
+      "emoji_unicode": "U+1F1E7 U+1F1F8",
+      "svg": "https://flagcdn.com/bs.svg"
     }
   },
   "JP": {
@@ -718,9 +718,9 @@
     "capital": "Tokyo",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/jp.svg",
-      "png": "https://flagcdn.com/w320/jp.png"
+      "emoji": "🇯🇵",
+      "emoji_unicode": "U+1F1EF U+1F1F5",
+      "svg": "https://flagcdn.com/jp.svg"
     }
   },
   "NG": {
@@ -728,15 +728,15 @@
     "calling_code": "+234",
     "capital": "Abuja",
     "borders": [
-      "BEN",
-      "CMR",
-      "TCD",
-      "NER"
+      "BJ",
+      "CM",
+      "TD",
+      "NE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ng.svg",
-      "png": "https://flagcdn.com/w320/ng.png"
+      "emoji": "🇳🇬",
+      "emoji_unicode": "U+1F1F3 U+1F1EC",
+      "svg": "https://flagcdn.com/ng.svg"
     }
   },
   "GH": {
@@ -744,14 +744,14 @@
     "calling_code": "+233",
     "capital": "Accra",
     "borders": [
-      "BFA",
-      "CIV",
-      "TGO"
+      "BF",
+      "CI",
+      "TG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gh.svg",
-      "png": "https://flagcdn.com/w320/gh.png"
+      "emoji": "🇬🇭",
+      "emoji_unicode": "U+1F1EC U+1F1ED",
+      "svg": "https://flagcdn.com/gh.svg"
     }
   },
   "SL": {
@@ -759,13 +759,13 @@
     "calling_code": "+232",
     "capital": "Freetown",
     "borders": [
-      "GIN",
-      "LBR"
+      "GN",
+      "LR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sl.svg",
-      "png": "https://flagcdn.com/w320/sl.png"
+      "emoji": "🇸🇱",
+      "emoji_unicode": "U+1F1F8 U+1F1F1",
+      "svg": "https://flagcdn.com/sl.svg"
     }
   },
   "PM": {
@@ -774,9 +774,9 @@
     "capital": "Saint-Pierre",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pm.svg",
-      "png": "https://flagcdn.com/w320/pm.png"
+      "emoji": "🇵🇲",
+      "emoji_unicode": "U+1F1F5 U+1F1F2",
+      "svg": "https://flagcdn.com/pm.svg"
     }
   },
   "AL": {
@@ -784,15 +784,15 @@
     "calling_code": "+355",
     "capital": "Tirana",
     "borders": [
-      "MNE",
-      "GRC",
-      "MKD",
-      "UNK"
+      "ME",
+      "GR",
+      "MK",
+      "XK"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/al.svg",
-      "png": "https://flagcdn.com/w320/al.png"
+      "emoji": "🇦🇱",
+      "emoji_unicode": "U+1F1E6 U+1F1F1",
+      "svg": "https://flagcdn.com/al.svg"
     }
   },
   "TK": {
@@ -801,9 +801,9 @@
     "capital": "Fakaofo",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tk.svg",
-      "png": "https://flagcdn.com/w320/tk.png"
+      "emoji": "🇹🇰",
+      "emoji_unicode": "U+1F1F9 U+1F1F0",
+      "svg": "https://flagcdn.com/tk.svg"
     }
   },
   "SH": {
@@ -812,9 +812,9 @@
     "capital": "Jamestown",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sh.svg",
-      "png": "https://flagcdn.com/w320/sh.png"
+      "emoji": "🇸🇭",
+      "emoji_unicode": "U+1F1F8 U+1F1ED",
+      "svg": "https://flagcdn.com/sh.svg"
     }
   },
   "TO": {
@@ -823,9 +823,9 @@
     "capital": "Nuku'alofa",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/to.svg",
-      "png": "https://flagcdn.com/w320/to.png"
+      "emoji": "🇹🇴",
+      "emoji_unicode": "U+1F1F9 U+1F1F4",
+      "svg": "https://flagcdn.com/to.svg"
     }
   },
   "TM": {
@@ -833,15 +833,15 @@
     "calling_code": "+993",
     "capital": "Ashgabat",
     "borders": [
-      "AFG",
-      "IRN",
-      "KAZ",
-      "UZB"
+      "AF",
+      "IR",
+      "KZ",
+      "UZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tm.svg",
-      "png": "https://flagcdn.com/w320/tm.png"
+      "emoji": "🇹🇲",
+      "emoji_unicode": "U+1F1F9 U+1F1F2",
+      "svg": "https://flagcdn.com/tm.svg"
     }
   },
   "DJ": {
@@ -849,14 +849,14 @@
     "calling_code": "+253",
     "capital": "Djibouti",
     "borders": [
-      "ERI",
-      "ETH",
-      "SOM"
+      "ER",
+      "ET",
+      "SO"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/dj.svg",
-      "png": "https://flagcdn.com/w320/dj.png"
+      "emoji": "🇩🇯",
+      "emoji_unicode": "U+1F1E9 U+1F1EF",
+      "svg": "https://flagcdn.com/dj.svg"
     }
   },
   "CF": {
@@ -864,17 +864,17 @@
     "calling_code": "+236",
     "capital": "Bangui",
     "borders": [
-      "CMR",
-      "TCD",
-      "COD",
-      "COG",
-      "SSD",
-      "SDN"
+      "CM",
+      "TD",
+      "CD",
+      "CG",
+      "SS",
+      "SD"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cf.svg",
-      "png": "https://flagcdn.com/w320/cf.png"
+      "emoji": "🇨🇫",
+      "emoji_unicode": "U+1F1E8 U+1F1EB",
+      "svg": "https://flagcdn.com/cf.svg"
     }
   },
   "LB": {
@@ -882,13 +882,13 @@
     "calling_code": "+961",
     "capital": "Beirut",
     "borders": [
-      "ISR",
-      "SYR"
+      "IL",
+      "SY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lb.svg",
-      "png": "https://flagcdn.com/w320/lb.png"
+      "emoji": "🇱🇧",
+      "emoji_unicode": "U+1F1F1 U+1F1E7",
+      "svg": "https://flagcdn.com/lb.svg"
     }
   },
   "LV": {
@@ -896,15 +896,15 @@
     "calling_code": "+371",
     "capital": "Riga",
     "borders": [
-      "BLR",
-      "EST",
-      "LTU",
-      "RUS"
+      "BY",
+      "EE",
+      "LT",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lv.svg",
-      "png": "https://flagcdn.com/w320/lv.png"
+      "emoji": "🇱🇻",
+      "emoji_unicode": "U+1F1F1 U+1F1FB",
+      "svg": "https://flagcdn.com/lv.svg"
     }
   },
   "CC": {
@@ -913,9 +913,9 @@
     "capital": "West Island",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cc.svg",
-      "png": "https://flagcdn.com/w320/cc.png"
+      "emoji": "🇨🇨",
+      "emoji_unicode": "U+1F1E8 U+1F1E8",
+      "svg": "https://flagcdn.com/cc.svg"
     }
   },
   "GM": {
@@ -923,12 +923,12 @@
     "calling_code": "+220",
     "capital": "Banjul",
     "borders": [
-      "SEN"
+      "SN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gm.svg",
-      "png": "https://flagcdn.com/w320/gm.png"
+      "emoji": "🇬🇲",
+      "emoji_unicode": "U+1F1EC U+1F1F2",
+      "svg": "https://flagcdn.com/gm.svg"
     }
   },
   "HN": {
@@ -936,14 +936,14 @@
     "calling_code": "+504",
     "capital": "Tegucigalpa",
     "borders": [
-      "GTM",
-      "SLV",
-      "NIC"
+      "GT",
+      "SV",
+      "NI"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/hn.svg",
-      "png": "https://flagcdn.com/w320/hn.png"
+      "emoji": "🇭🇳",
+      "emoji_unicode": "U+1F1ED U+1F1F3",
+      "svg": "https://flagcdn.com/hn.svg"
     }
   },
   "NU": {
@@ -952,9 +952,9 @@
     "capital": "Alofi",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nu.svg",
-      "png": "https://flagcdn.com/w320/nu.png"
+      "emoji": "🇳🇺",
+      "emoji_unicode": "U+1F1F3 U+1F1FA",
+      "svg": "https://flagcdn.com/nu.svg"
     }
   },
   "MR": {
@@ -962,15 +962,15 @@
     "calling_code": "+222",
     "capital": "Nouakchott",
     "borders": [
-      "DZA",
-      "MLI",
-      "SEN",
-      "ESH"
+      "DZ",
+      "ML",
+      "SN",
+      "EH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mr.svg",
-      "png": "https://flagcdn.com/w320/mr.png"
+      "emoji": "🇲🇷",
+      "emoji_unicode": "U+1F1F2 U+1F1F7",
+      "svg": "https://flagcdn.com/mr.svg"
     }
   },
   "XK": {
@@ -978,15 +978,15 @@
     "calling_code": "+383",
     "capital": "Pristina",
     "borders": [
-      "ALB",
-      "MKD",
-      "MNE",
-      "SRB"
+      "AL",
+      "MK",
+      "ME",
+      "RS"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/xk.svg",
-      "png": "https://flagcdn.com/w320/xk.png"
+      "emoji": "🇽🇰",
+      "emoji_unicode": "U+1F1FD U+1F1F0",
+      "svg": "https://flagcdn.com/xk.svg"
     }
   },
   "WF": {
@@ -995,9 +995,9 @@
     "capital": "Mata-Utu",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/wf.svg",
-      "png": "https://flagcdn.com/w320/wf.png"
+      "emoji": "🇼🇫",
+      "emoji_unicode": "U+1F1FC U+1F1EB",
+      "svg": "https://flagcdn.com/wf.svg"
     }
   },
   "GS": {
@@ -1006,9 +1006,9 @@
     "capital": "King Edward Point",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gs.svg",
-      "png": "https://flagcdn.com/w320/gs.png"
+      "emoji": "🇬🇸",
+      "emoji_unicode": "U+1F1EC U+1F1F8",
+      "svg": "https://flagcdn.com/gs.svg"
     }
   },
   "PF": {
@@ -1017,9 +1017,9 @@
     "capital": "Papeetē",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pf.svg",
-      "png": "https://flagcdn.com/w320/pf.png"
+      "emoji": "🇵🇫",
+      "emoji_unicode": "U+1F1F5 U+1F1EB",
+      "svg": "https://flagcdn.com/pf.svg"
     }
   },
   "TG": {
@@ -1027,14 +1027,14 @@
     "calling_code": "+228",
     "capital": "Lomé",
     "borders": [
-      "BEN",
-      "BFA",
-      "GHA"
+      "BJ",
+      "BF",
+      "GH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tg.svg",
-      "png": "https://flagcdn.com/w320/tg.png"
+      "emoji": "🇹🇬",
+      "emoji_unicode": "U+1F1F9 U+1F1EC",
+      "svg": "https://flagcdn.com/tg.svg"
     }
   },
   "BE": {
@@ -1042,15 +1042,15 @@
     "calling_code": "+32",
     "capital": "Brussels",
     "borders": [
-      "FRA",
-      "DEU",
-      "LUX",
-      "NLD"
+      "FR",
+      "DE",
+      "LU",
+      "NL"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/be.svg",
-      "png": "https://flagcdn.com/w320/be.png"
+      "emoji": "🇧🇪",
+      "emoji_unicode": "U+1F1E7 U+1F1EA",
+      "svg": "https://flagcdn.com/be.svg"
     }
   },
   "ZM": {
@@ -1058,19 +1058,19 @@
     "calling_code": "+260",
     "capital": "Lusaka",
     "borders": [
-      "AGO",
-      "BWA",
-      "COD",
-      "MWI",
-      "MOZ",
-      "NAM",
-      "TZA",
-      "ZWE"
+      "AO",
+      "BW",
+      "CD",
+      "MW",
+      "MZ",
+      "NA",
+      "TZ",
+      "ZW"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/zm.svg",
-      "png": "https://flagcdn.com/w320/zm.png"
+      "emoji": "🇿🇲",
+      "emoji_unicode": "U+1F1FF U+1F1F2",
+      "svg": "https://flagcdn.com/zm.svg"
     }
   },
   "KY": {
@@ -1079,9 +1079,9 @@
     "capital": "George Town",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ky.svg",
-      "png": "https://flagcdn.com/w320/ky.png"
+      "emoji": "🇰🇾",
+      "emoji_unicode": "U+1F1F0 U+1F1FE",
+      "svg": "https://flagcdn.com/ky.svg"
     }
   },
   "PN": {
@@ -1090,9 +1090,9 @@
     "capital": "Adamstown",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pn.svg",
-      "png": "https://flagcdn.com/w320/pn.png"
+      "emoji": "🇵🇳",
+      "emoji_unicode": "U+1F1F5 U+1F1F3",
+      "svg": "https://flagcdn.com/pn.svg"
     }
   },
   "CK": {
@@ -1101,9 +1101,9 @@
     "capital": "Avarua",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ck.svg",
-      "png": "https://flagcdn.com/w320/ck.png"
+      "emoji": "🇨🇰",
+      "emoji_unicode": "U+1F1E8 U+1F1F0",
+      "svg": "https://flagcdn.com/ck.svg"
     }
   },
   "MG": {
@@ -1112,9 +1112,9 @@
     "capital": "Antananarivo",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mg.svg",
-      "png": "https://flagcdn.com/w320/mg.png"
+      "emoji": "🇲🇬",
+      "emoji_unicode": "U+1F1F2 U+1F1EC",
+      "svg": "https://flagcdn.com/mg.svg"
     }
   },
   "ME": {
@@ -1122,16 +1122,16 @@
     "calling_code": "+382",
     "capital": "Podgorica",
     "borders": [
-      "ALB",
-      "BIH",
-      "HRV",
-      "UNK",
-      "SRB"
+      "AL",
+      "BA",
+      "HR",
+      "XK",
+      "RS"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/me.svg",
-      "png": "https://flagcdn.com/w320/me.png"
+      "emoji": "🇲🇪",
+      "emoji_unicode": "U+1F1F2 U+1F1EA",
+      "svg": "https://flagcdn.com/me.svg"
     }
   },
   "KR": {
@@ -1139,12 +1139,12 @@
     "calling_code": "+82",
     "capital": "Seoul",
     "borders": [
-      "PRK"
+      "KP"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kr.svg",
-      "png": "https://flagcdn.com/w320/kr.png"
+      "emoji": "🇰🇷",
+      "emoji_unicode": "U+1F1F0 U+1F1F7",
+      "svg": "https://flagcdn.com/kr.svg"
     }
   },
   "ET": {
@@ -1152,17 +1152,17 @@
     "calling_code": "+251",
     "capital": "Addis Ababa",
     "borders": [
-      "DJI",
-      "ERI",
-      "KEN",
-      "SOM",
-      "SSD",
-      "SDN"
+      "DJ",
+      "ER",
+      "KE",
+      "SO",
+      "SS",
+      "SD"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/et.svg",
-      "png": "https://flagcdn.com/w320/et.png"
+      "emoji": "🇪🇹",
+      "emoji_unicode": "U+1F1EA U+1F1F9",
+      "svg": "https://flagcdn.com/et.svg"
     }
   },
   "MN": {
@@ -1170,13 +1170,13 @@
     "calling_code": "+976",
     "capital": "Ulan Bator",
     "borders": [
-      "CHN",
-      "RUS"
+      "CN",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mn.svg",
-      "png": "https://flagcdn.com/w320/mn.png"
+      "emoji": "🇲🇳",
+      "emoji_unicode": "U+1F1F2 U+1F1F3",
+      "svg": "https://flagcdn.com/mn.svg"
     }
   },
   "SK": {
@@ -1184,16 +1184,16 @@
     "calling_code": "+421",
     "capital": "Bratislava",
     "borders": [
-      "AUT",
-      "CZE",
-      "HUN",
-      "POL",
-      "UKR"
+      "AT",
+      "CZ",
+      "HU",
+      "PL",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sk.svg",
-      "png": "https://flagcdn.com/w320/sk.png"
+      "emoji": "🇸🇰",
+      "emoji_unicode": "U+1F1F8 U+1F1F0",
+      "svg": "https://flagcdn.com/sk.svg"
     }
   },
   "CU": {
@@ -1202,9 +1202,9 @@
     "capital": "Havana",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cu.svg",
-      "png": "https://flagcdn.com/w320/cu.png"
+      "emoji": "🇨🇺",
+      "emoji_unicode": "U+1F1E8 U+1F1FA",
+      "svg": "https://flagcdn.com/cu.svg"
     }
   },
   "AQ": {
@@ -1213,9 +1213,9 @@
     "capital": null,
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/aq.svg",
-      "png": "https://flagcdn.com/w320/aq.png"
+      "emoji": "🇦🇶",
+      "emoji_unicode": "U+1F1E6 U+1F1F6",
+      "svg": "https://flagcdn.com/aq.svg"
     }
   },
   "GT": {
@@ -1223,15 +1223,15 @@
     "calling_code": "+502",
     "capital": "Guatemala City",
     "borders": [
-      "BLZ",
-      "SLV",
-      "HND",
-      "MEX"
+      "BZ",
+      "SV",
+      "HN",
+      "MX"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gt.svg",
-      "png": "https://flagcdn.com/w320/gt.png"
+      "emoji": "🇬🇹",
+      "emoji_unicode": "U+1F1EC U+1F1F9",
+      "svg": "https://flagcdn.com/gt.svg"
     }
   },
   "GF": {
@@ -1239,13 +1239,13 @@
     "calling_code": "+594",
     "capital": "Cayenne",
     "borders": [
-      "BRA",
-      "SUR"
+      "BR",
+      "SR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gf.svg",
-      "png": "https://flagcdn.com/w320/gf.png"
+      "emoji": "🇬🇫",
+      "emoji_unicode": "U+1F1EC U+1F1EB",
+      "svg": "https://flagcdn.com/gf.svg"
     }
   },
   "NO": {
@@ -1253,14 +1253,14 @@
     "calling_code": "+47",
     "capital": "Oslo",
     "borders": [
-      "FIN",
-      "SWE",
-      "RUS"
+      "FI",
+      "SE",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/no.svg",
-      "png": "https://flagcdn.com/w320/no.png"
+      "emoji": "🇳🇴",
+      "emoji_unicode": "U+1F1F3 U+1F1F4",
+      "svg": "https://flagcdn.com/no.svg"
     }
   },
   "GD": {
@@ -1269,9 +1269,9 @@
     "capital": "St. George's",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gd.svg",
-      "png": "https://flagcdn.com/w320/gd.png"
+      "emoji": "🇬🇩",
+      "emoji_unicode": "U+1F1EC U+1F1E9",
+      "svg": "https://flagcdn.com/gd.svg"
     }
   },
   "RE": {
@@ -1280,9 +1280,9 @@
     "capital": "Saint-Denis",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/re.svg",
-      "png": "https://flagcdn.com/w320/re.png"
+      "emoji": "🇷🇪",
+      "emoji_unicode": "U+1F1F7 U+1F1EA",
+      "svg": "https://flagcdn.com/re.svg"
     }
   },
   "CL": {
@@ -1290,14 +1290,14 @@
     "calling_code": "+56",
     "capital": "Santiago",
     "borders": [
-      "ARG",
-      "BOL",
-      "PER"
+      "AR",
+      "BO",
+      "PE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cl.svg",
-      "png": "https://flagcdn.com/w320/cl.png"
+      "emoji": "🇨🇱",
+      "emoji_unicode": "U+1F1E8 U+1F1F1",
+      "svg": "https://flagcdn.com/cl.svg"
     }
   },
   "CO": {
@@ -1305,16 +1305,16 @@
     "calling_code": "+57",
     "capital": "Bogotá",
     "borders": [
-      "BRA",
-      "ECU",
-      "PAN",
-      "PER",
-      "VEN"
+      "BR",
+      "EC",
+      "PA",
+      "PE",
+      "VE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/co.svg",
-      "png": "https://flagcdn.com/w320/co.png"
+      "emoji": "🇨🇴",
+      "emoji_unicode": "U+1F1E8 U+1F1F4",
+      "svg": "https://flagcdn.com/co.svg"
     }
   },
   "SA": {
@@ -1322,18 +1322,18 @@
     "calling_code": "+966",
     "capital": "Riyadh",
     "borders": [
-      "IRQ",
-      "JOR",
-      "KWT",
-      "OMN",
-      "QAT",
-      "ARE",
-      "YEM"
+      "IQ",
+      "JO",
+      "KW",
+      "OM",
+      "QA",
+      "AE",
+      "YE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sa.svg",
-      "png": "https://flagcdn.com/w320/sa.png"
+      "emoji": "🇸🇦",
+      "emoji_unicode": "U+1F1F8 U+1F1E6",
+      "svg": "https://flagcdn.com/sa.svg"
     }
   },
   "IL": {
@@ -1341,16 +1341,16 @@
     "calling_code": "+972",
     "capital": "Jerusalem",
     "borders": [
-      "EGY",
-      "JOR",
-      "LBN",
-      "PSE",
-      "SYR"
+      "EG",
+      "JO",
+      "LB",
+      "PS",
+      "SY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/il.svg",
-      "png": "https://flagcdn.com/w320/il.png"
+      "emoji": "🇮🇱",
+      "emoji_unicode": "U+1F1EE U+1F1F1",
+      "svg": "https://flagcdn.com/il.svg"
     }
   },
   "DE": {
@@ -1358,20 +1358,20 @@
     "calling_code": "+49",
     "capital": "Berlin",
     "borders": [
-      "AUT",
-      "BEL",
-      "CZE",
-      "DNK",
-      "FRA",
-      "LUX",
-      "NLD",
-      "POL",
-      "CHE"
+      "AT",
+      "BE",
+      "CZ",
+      "DK",
+      "FR",
+      "LU",
+      "NL",
+      "PL",
+      "CH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/de.svg",
-      "png": "https://flagcdn.com/w320/de.png"
+      "emoji": "🇩🇪",
+      "emoji_unicode": "U+1F1E9 U+1F1EA",
+      "svg": "https://flagcdn.com/de.svg"
     }
   },
   "NZ": {
@@ -1380,9 +1380,9 @@
     "capital": "Wellington",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nz.svg",
-      "png": "https://flagcdn.com/w320/nz.png"
+      "emoji": "🇳🇿",
+      "emoji_unicode": "U+1F1F3 U+1F1FF",
+      "svg": "https://flagcdn.com/nz.svg"
     }
   },
   "GL": {
@@ -1391,9 +1391,9 @@
     "capital": "Nuuk",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gl.svg",
-      "png": "https://flagcdn.com/w320/gl.png"
+      "emoji": "🇬🇱",
+      "emoji_unicode": "U+1F1EC U+1F1F1",
+      "svg": "https://flagcdn.com/gl.svg"
     }
   },
   "KG": {
@@ -1401,15 +1401,15 @@
     "calling_code": "+996",
     "capital": "Bishkek",
     "borders": [
-      "CHN",
-      "KAZ",
-      "TJK",
-      "UZB"
+      "CN",
+      "KZ",
+      "TJ",
+      "UZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kg.svg",
-      "png": "https://flagcdn.com/w320/kg.png"
+      "emoji": "🇰🇬",
+      "emoji_unicode": "U+1F1F0 U+1F1EC",
+      "svg": "https://flagcdn.com/kg.svg"
     }
   },
   "SV": {
@@ -1417,13 +1417,13 @@
     "calling_code": "+503",
     "capital": "San Salvador",
     "borders": [
-      "GTM",
-      "HND"
+      "GT",
+      "HN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sv.svg",
-      "png": "https://flagcdn.com/w320/sv.png"
+      "emoji": "🇸🇻",
+      "emoji_unicode": "U+1F1F8 U+1F1FB",
+      "svg": "https://flagcdn.com/sv.svg"
     }
   },
   "FO": {
@@ -1432,9 +1432,9 @@
     "capital": "Tórshavn",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fo.svg",
-      "png": "https://flagcdn.com/w320/fo.png"
+      "emoji": "🇫🇴",
+      "emoji_unicode": "U+1F1EB U+1F1F4",
+      "svg": "https://flagcdn.com/fo.svg"
     }
   },
   "PW": {
@@ -1443,9 +1443,9 @@
     "capital": "Ngerulmud",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pw.svg",
-      "png": "https://flagcdn.com/w320/pw.png"
+      "emoji": "🇵🇼",
+      "emoji_unicode": "U+1F1F5 U+1F1FC",
+      "svg": "https://flagcdn.com/pw.svg"
     }
   },
   "MT": {
@@ -1454,9 +1454,9 @@
     "capital": "Valletta",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mt.svg",
-      "png": "https://flagcdn.com/w320/mt.png"
+      "emoji": "🇲🇹",
+      "emoji_unicode": "U+1F1F2 U+1F1F9",
+      "svg": "https://flagcdn.com/mt.svg"
     }
   },
   "SY": {
@@ -1464,16 +1464,16 @@
     "calling_code": "+963",
     "capital": "Damascus",
     "borders": [
-      "IRQ",
-      "ISR",
-      "JOR",
-      "LBN",
-      "TUR"
+      "IQ",
+      "IL",
+      "JO",
+      "LB",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sy.svg",
-      "png": "https://flagcdn.com/w320/sy.png"
+      "emoji": "🇸🇾",
+      "emoji_unicode": "U+1F1F8 U+1F1FE",
+      "svg": "https://flagcdn.com/sy.svg"
     }
   },
   "TL": {
@@ -1481,12 +1481,12 @@
     "calling_code": "+670",
     "capital": "Dili",
     "borders": [
-      "IDN"
+      "ID"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tl.svg",
-      "png": "https://flagcdn.com/w320/tl.png"
+      "emoji": "🇹🇱",
+      "emoji_unicode": "U+1F1F9 U+1F1F1",
+      "svg": "https://flagcdn.com/tl.svg"
     }
   },
   "HR": {
@@ -1494,16 +1494,16 @@
     "calling_code": "+385",
     "capital": "Zagreb",
     "borders": [
-      "BIH",
-      "HUN",
-      "MNE",
-      "SRB",
-      "SVN"
+      "BA",
+      "HU",
+      "ME",
+      "RS",
+      "SI"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/hr.svg",
-      "png": "https://flagcdn.com/w320/hr.png"
+      "emoji": "🇭🇷",
+      "emoji_unicode": "U+1F1ED U+1F1F7",
+      "svg": "https://flagcdn.com/hr.svg"
     }
   },
   "PG": {
@@ -1511,12 +1511,12 @@
     "calling_code": "+675",
     "capital": "Port Moresby",
     "borders": [
-      "IDN"
+      "ID"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pg.svg",
-      "png": "https://flagcdn.com/w320/pg.png"
+      "emoji": "🇵🇬",
+      "emoji_unicode": "U+1F1F5 U+1F1EC",
+      "svg": "https://flagcdn.com/pg.svg"
     }
   },
   "NL": {
@@ -1524,13 +1524,13 @@
     "calling_code": "+31",
     "capital": "Amsterdam",
     "borders": [
-      "BEL",
-      "DEU"
+      "BE",
+      "DE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nl.svg",
-      "png": "https://flagcdn.com/w320/nl.png"
+      "emoji": "🇳🇱",
+      "emoji_unicode": "U+1F1F3 U+1F1F1",
+      "svg": "https://flagcdn.com/nl.svg"
     }
   },
   "LR": {
@@ -1538,14 +1538,14 @@
     "calling_code": "+231",
     "capital": "Monrovia",
     "borders": [
-      "GIN",
-      "CIV",
-      "SLE"
+      "GN",
+      "CI",
+      "SL"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lr.svg",
-      "png": "https://flagcdn.com/w320/lr.png"
+      "emoji": "🇱🇷",
+      "emoji_unicode": "U+1F1F1 U+1F1F7",
+      "svg": "https://flagcdn.com/lr.svg"
     }
   },
   "SO": {
@@ -1553,14 +1553,14 @@
     "calling_code": "+252",
     "capital": "Mogadishu",
     "borders": [
-      "DJI",
-      "ETH",
-      "KEN"
+      "DJ",
+      "ET",
+      "KE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/so.svg",
-      "png": "https://flagcdn.com/w320/so.png"
+      "emoji": "🇸🇴",
+      "emoji_unicode": "U+1F1F8 U+1F1F4",
+      "svg": "https://flagcdn.com/so.svg"
     }
   },
   "VE": {
@@ -1568,14 +1568,14 @@
     "calling_code": "+58",
     "capital": "Caracas",
     "borders": [
-      "BRA",
-      "COL",
-      "GUY"
+      "BR",
+      "CO",
+      "GY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ve.svg",
-      "png": "https://flagcdn.com/w320/ve.png"
+      "emoji": "🇻🇪",
+      "emoji_unicode": "U+1F1FB U+1F1EA",
+      "svg": "https://flagcdn.com/ve.svg"
     }
   },
   "HT": {
@@ -1583,12 +1583,12 @@
     "calling_code": "+509",
     "capital": "Port-au-Prince",
     "borders": [
-      "DOM"
+      "DO"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ht.svg",
-      "png": "https://flagcdn.com/w320/ht.png"
+      "emoji": "🇭🇹",
+      "emoji_unicode": "U+1F1ED U+1F1F9",
+      "svg": "https://flagcdn.com/ht.svg"
     }
   },
   "DZ": {
@@ -1596,18 +1596,18 @@
     "calling_code": "+213",
     "capital": "Algiers",
     "borders": [
-      "TUN",
-      "LBY",
-      "NER",
-      "ESH",
-      "MRT",
-      "MLI",
-      "MAR"
+      "TN",
+      "LY",
+      "NE",
+      "EH",
+      "MR",
+      "ML",
+      "MA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/dz.svg",
-      "png": "https://flagcdn.com/w320/dz.png"
+      "emoji": "🇩🇿",
+      "emoji_unicode": "U+1F1E9 U+1F1FF",
+      "svg": "https://flagcdn.com/dz.svg"
     }
   },
   "MP": {
@@ -1616,9 +1616,9 @@
     "capital": "Saipan",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mp.svg",
-      "png": "https://flagcdn.com/w320/mp.png"
+      "emoji": "🇲🇵",
+      "emoji_unicode": "U+1F1F2 U+1F1F5",
+      "svg": "https://flagcdn.com/mp.svg"
     }
   },
   "MF": {
@@ -1626,12 +1626,12 @@
     "calling_code": "+590",
     "capital": "Marigot",
     "borders": [
-      "SXM"
+      "SX"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mf.svg",
-      "png": "https://flagcdn.com/w320/mf.png"
+      "emoji": "🇲🇫",
+      "emoji_unicode": "U+1F1F2 U+1F1EB",
+      "svg": "https://flagcdn.com/mf.svg"
     }
   },
   "HM": {
@@ -1640,9 +1640,9 @@
     "capital": null,
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/hm.svg",
-      "png": "https://flagcdn.com/w320/hm.png"
+      "emoji": "🇭🇲",
+      "emoji_unicode": "U+1F1ED U+1F1F2",
+      "svg": "https://flagcdn.com/hm.svg"
     }
   },
   "AW": {
@@ -1651,9 +1651,9 @@
     "capital": "Oranjestad",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/aw.svg",
-      "png": "https://flagcdn.com/w320/aw.png"
+      "emoji": "🇦🇼",
+      "emoji_unicode": "U+1F1E6 U+1F1FC",
+      "svg": "https://flagcdn.com/aw.svg"
     }
   },
   "EG": {
@@ -1661,15 +1661,15 @@
     "calling_code": "+20",
     "capital": "Cairo",
     "borders": [
-      "ISR",
-      "LBY",
-      "PSE",
-      "SDN"
+      "IL",
+      "LY",
+      "PS",
+      "SD"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/eg.svg",
-      "png": "https://flagcdn.com/w320/eg.png"
+      "emoji": "🇪🇬",
+      "emoji_unicode": "U+1F1EA U+1F1EC",
+      "svg": "https://flagcdn.com/eg.svg"
     }
   },
   "MW": {
@@ -1677,14 +1677,14 @@
     "calling_code": "+265",
     "capital": "Lilongwe",
     "borders": [
-      "MOZ",
-      "TZA",
-      "ZMB"
+      "MZ",
+      "TZ",
+      "ZM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mw.svg",
-      "png": "https://flagcdn.com/w320/mw.png"
+      "emoji": "🇲🇼",
+      "emoji_unicode": "U+1F1F2 U+1F1FC",
+      "svg": "https://flagcdn.com/mw.svg"
     }
   },
   "GQ": {
@@ -1692,13 +1692,13 @@
     "calling_code": "+240",
     "capital": "Malabo",
     "borders": [
-      "CMR",
-      "GAB"
+      "CM",
+      "GA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gq.svg",
-      "png": "https://flagcdn.com/w320/gq.png"
+      "emoji": "🇬🇶",
+      "emoji_unicode": "U+1F1EC U+1F1F6",
+      "svg": "https://flagcdn.com/gq.svg"
     }
   },
   "VI": {
@@ -1707,9 +1707,9 @@
     "capital": "Charlotte Amalie",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/vi.svg",
-      "png": "https://flagcdn.com/w320/vi.png"
+      "emoji": "🇻🇮",
+      "emoji_unicode": "U+1F1FB U+1F1EE",
+      "svg": "https://flagcdn.com/vi.svg"
     }
   },
   "EC": {
@@ -1717,13 +1717,13 @@
     "calling_code": "+593",
     "capital": "Quito",
     "borders": [
-      "COL",
-      "PER"
+      "CO",
+      "PE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ec.svg",
-      "png": "https://flagcdn.com/w320/ec.png"
+      "emoji": "🇪🇨",
+      "emoji_unicode": "U+1F1EA U+1F1E8",
+      "svg": "https://flagcdn.com/ec.svg"
     }
   },
   "UZ": {
@@ -1731,16 +1731,16 @@
     "calling_code": "+998",
     "capital": "Tashkent",
     "borders": [
-      "AFG",
-      "KAZ",
-      "KGZ",
-      "TJK",
-      "TKM"
+      "AF",
+      "KZ",
+      "KG",
+      "TJ",
+      "TM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/uz.svg",
-      "png": "https://flagcdn.com/w320/uz.png"
+      "emoji": "🇺🇿",
+      "emoji_unicode": "U+1F1FA U+1F1FF",
+      "svg": "https://flagcdn.com/uz.svg"
     }
   },
   "GA": {
@@ -1748,14 +1748,14 @@
     "calling_code": "+241",
     "capital": "Libreville",
     "borders": [
-      "CMR",
-      "COG",
-      "GNQ"
+      "CM",
+      "CG",
+      "GQ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ga.svg",
-      "png": "https://flagcdn.com/w320/ga.png"
+      "emoji": "🇬🇦",
+      "emoji_unicode": "U+1F1EC U+1F1E6",
+      "svg": "https://flagcdn.com/ga.svg"
     }
   },
   "SS": {
@@ -1763,17 +1763,17 @@
     "calling_code": "+211",
     "capital": "Juba",
     "borders": [
-      "CAF",
-      "COD",
-      "ETH",
-      "KEN",
-      "SDN",
-      "UGA"
+      "CF",
+      "CD",
+      "ET",
+      "KE",
+      "SD",
+      "UG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ss.svg",
-      "png": "https://flagcdn.com/w320/ss.png"
+      "emoji": "🇸🇸",
+      "emoji_unicode": "U+1F1F8 U+1F1F8",
+      "svg": "https://flagcdn.com/ss.svg"
     }
   },
   "IR": {
@@ -1781,18 +1781,18 @@
     "calling_code": "+98",
     "capital": "Tehran",
     "borders": [
-      "AFG",
-      "ARM",
-      "AZE",
-      "IRQ",
-      "PAK",
-      "TUR",
-      "TKM"
+      "AF",
+      "AM",
+      "AZ",
+      "IQ",
+      "PK",
+      "TR",
+      "TM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ir.svg",
-      "png": "https://flagcdn.com/w320/ir.png"
+      "emoji": "🇮🇷",
+      "emoji_unicode": "U+1F1EE U+1F1F7",
+      "svg": "https://flagcdn.com/ir.svg"
     }
   },
   "KZ": {
@@ -1800,16 +1800,16 @@
     "calling_code": "+76",
     "capital": "Astana",
     "borders": [
-      "CHN",
-      "KGZ",
-      "RUS",
-      "TKM",
-      "UZB"
+      "CN",
+      "KG",
+      "RU",
+      "TM",
+      "UZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kz.svg",
-      "png": "https://flagcdn.com/w320/kz.png"
+      "emoji": "🇰🇿",
+      "emoji_unicode": "U+1F1F0 U+1F1FF",
+      "svg": "https://flagcdn.com/kz.svg"
     }
   },
   "NI": {
@@ -1817,13 +1817,13 @@
     "calling_code": "+505",
     "capital": "Managua",
     "borders": [
-      "CRI",
-      "HND"
+      "CR",
+      "HN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ni.svg",
-      "png": "https://flagcdn.com/w320/ni.png"
+      "emoji": "🇳🇮",
+      "emoji_unicode": "U+1F1F3 U+1F1EE",
+      "svg": "https://flagcdn.com/ni.svg"
     }
   },
   "IS": {
@@ -1832,9 +1832,9 @@
     "capital": "Reykjavik",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/is.svg",
-      "png": "https://flagcdn.com/w320/is.png"
+      "emoji": "🇮🇸",
+      "emoji_unicode": "U+1F1EE U+1F1F8",
+      "svg": "https://flagcdn.com/is.svg"
     }
   },
   "SI": {
@@ -1842,15 +1842,15 @@
     "calling_code": "+386",
     "capital": "Ljubljana",
     "borders": [
-      "AUT",
-      "HRV",
-      "ITA",
-      "HUN"
+      "AT",
+      "HR",
+      "IT",
+      "HU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/si.svg",
-      "png": "https://flagcdn.com/w320/si.png"
+      "emoji": "🇸🇮",
+      "emoji_unicode": "U+1F1F8 U+1F1EE",
+      "svg": "https://flagcdn.com/si.svg"
     }
   },
   "GP": {
@@ -1859,9 +1859,9 @@
     "capital": "Basse-Terre",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gp.svg",
-      "png": "https://flagcdn.com/w320/gp.png"
+      "emoji": "🇬🇵",
+      "emoji_unicode": "U+1F1EC U+1F1F5",
+      "svg": "https://flagcdn.com/gp.svg"
     }
   },
   "CM": {
@@ -1869,17 +1869,17 @@
     "calling_code": "+237",
     "capital": "Yaoundé",
     "borders": [
-      "CAF",
-      "TCD",
-      "COG",
-      "GNQ",
-      "GAB",
-      "NGA"
+      "CF",
+      "TD",
+      "CG",
+      "GQ",
+      "GA",
+      "NG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cm.svg",
-      "png": "https://flagcdn.com/w320/cm.png"
+      "emoji": "🇨🇲",
+      "emoji_unicode": "U+1F1E8 U+1F1F2",
+      "svg": "https://flagcdn.com/cm.svg"
     }
   },
   "AR": {
@@ -1887,16 +1887,16 @@
     "calling_code": "+54",
     "capital": "Buenos Aires",
     "borders": [
-      "BOL",
-      "BRA",
-      "CHL",
-      "PRY",
-      "URY"
+      "BO",
+      "BR",
+      "CL",
+      "PY",
+      "UY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ar.svg",
-      "png": "https://flagcdn.com/w320/ar.png"
+      "emoji": "🇦🇷",
+      "emoji_unicode": "U+1F1E6 U+1F1F7",
+      "svg": "https://flagcdn.com/ar.svg"
     }
   },
   "AZ": {
@@ -1904,16 +1904,16 @@
     "calling_code": "+994",
     "capital": "Baku",
     "borders": [
-      "ARM",
-      "GEO",
-      "IRN",
-      "RUS",
-      "TUR"
+      "AM",
+      "GE",
+      "IR",
+      "RU",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/az.svg",
-      "png": "https://flagcdn.com/w320/az.png"
+      "emoji": "🇦🇿",
+      "emoji_unicode": "U+1F1E6 U+1F1FF",
+      "svg": "https://flagcdn.com/az.svg"
     }
   },
   "UG": {
@@ -1921,16 +1921,16 @@
     "calling_code": "+256",
     "capital": "Kampala",
     "borders": [
-      "COD",
-      "KEN",
-      "RWA",
-      "SSD",
-      "TZA"
+      "CD",
+      "KE",
+      "RW",
+      "SS",
+      "TZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ug.svg",
-      "png": "https://flagcdn.com/w320/ug.png"
+      "emoji": "🇺🇬",
+      "emoji_unicode": "U+1F1FA U+1F1EC",
+      "svg": "https://flagcdn.com/ug.svg"
     }
   },
   "NE": {
@@ -1938,18 +1938,18 @@
     "calling_code": "+227",
     "capital": "Niamey",
     "borders": [
-      "DZA",
-      "BEN",
-      "BFA",
-      "TCD",
-      "LBY",
-      "MLI",
-      "NGA"
+      "DZ",
+      "BJ",
+      "BF",
+      "TD",
+      "LY",
+      "ML",
+      "NG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ne.svg",
-      "png": "https://flagcdn.com/w320/ne.png"
+      "emoji": "🇳🇪",
+      "emoji_unicode": "U+1F1F3 U+1F1EA",
+      "svg": "https://flagcdn.com/ne.svg"
     }
   },
   "CX": {
@@ -1958,9 +1958,9 @@
     "capital": "Flying Fish Cove",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cx.svg",
-      "png": "https://flagcdn.com/w320/cx.png"
+      "emoji": "🇨🇽",
+      "emoji_unicode": "U+1F1E8 U+1F1FD",
+      "svg": "https://flagcdn.com/cx.svg"
     }
   },
   "MM": {
@@ -1968,16 +1968,16 @@
     "calling_code": "+95",
     "capital": "Naypyidaw",
     "borders": [
-      "BGD",
-      "CHN",
-      "IND",
-      "LAO",
-      "THA"
+      "BD",
+      "CN",
+      "IN",
+      "LA",
+      "TH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mm.svg",
-      "png": "https://flagcdn.com/w320/mm.png"
+      "emoji": "🇲🇲",
+      "emoji_unicode": "U+1F1F2 U+1F1F2",
+      "svg": "https://flagcdn.com/mm.svg"
     }
   },
   "PL": {
@@ -1985,18 +1985,18 @@
     "calling_code": "+48",
     "capital": "Warsaw",
     "borders": [
-      "BLR",
-      "CZE",
-      "DEU",
-      "LTU",
-      "RUS",
-      "SVK",
-      "UKR"
+      "BY",
+      "CZ",
+      "DE",
+      "LT",
+      "RU",
+      "SK",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pl.svg",
-      "png": "https://flagcdn.com/w320/pl.png"
+      "emoji": "🇵🇱",
+      "emoji_unicode": "U+1F1F5 U+1F1F1",
+      "svg": "https://flagcdn.com/pl.svg"
     }
   },
   "JO": {
@@ -2004,16 +2004,16 @@
     "calling_code": "+962",
     "capital": "Amman",
     "borders": [
-      "IRQ",
-      "ISR",
-      "PSE",
-      "SAU",
-      "SYR"
+      "IQ",
+      "IL",
+      "PS",
+      "SA",
+      "SY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/jo.svg",
-      "png": "https://flagcdn.com/w320/jo.png"
+      "emoji": "🇯🇴",
+      "emoji_unicode": "U+1F1EF U+1F1F4",
+      "svg": "https://flagcdn.com/jo.svg"
     }
   },
   "HK": {
@@ -2021,12 +2021,12 @@
     "calling_code": "+852",
     "capital": "City of Victoria",
     "borders": [
-      "CHN"
+      "CN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/hk.svg",
-      "png": "https://flagcdn.com/w320/hk.png"
+      "emoji": "🇭🇰",
+      "emoji_unicode": "U+1F1ED U+1F1F0",
+      "svg": "https://flagcdn.com/hk.svg"
     }
   },
   "CD": {
@@ -2034,20 +2034,20 @@
     "calling_code": "+243",
     "capital": "Kinshasa",
     "borders": [
-      "AGO",
-      "BDI",
-      "CAF",
-      "COG",
-      "RWA",
-      "SSD",
-      "TZA",
-      "UGA",
-      "ZMB"
+      "AO",
+      "BI",
+      "CF",
+      "CG",
+      "RW",
+      "SS",
+      "TZ",
+      "UG",
+      "ZM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cd.svg",
-      "png": "https://flagcdn.com/w320/cd.png"
+      "emoji": "🇨🇩",
+      "emoji_unicode": "U+1F1E8 U+1F1E9",
+      "svg": "https://flagcdn.com/cd.svg"
     }
   },
   "ER": {
@@ -2055,14 +2055,14 @@
     "calling_code": "+291",
     "capital": "Asmara",
     "borders": [
-      "DJI",
-      "ETH",
-      "SDN"
+      "DJ",
+      "ET",
+      "SD"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/er.svg",
-      "png": "https://flagcdn.com/w320/er.png"
+      "emoji": "🇪🇷",
+      "emoji_unicode": "U+1F1EA U+1F1F7",
+      "svg": "https://flagcdn.com/er.svg"
     }
   },
   "KI": {
@@ -2071,9 +2071,9 @@
     "capital": "South Tarawa",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ki.svg",
-      "png": "https://flagcdn.com/w320/ki.png"
+      "emoji": "🇰🇮",
+      "emoji_unicode": "U+1F1F0 U+1F1EE",
+      "svg": "https://flagcdn.com/ki.svg"
     }
   },
   "MH": {
@@ -2082,9 +2082,9 @@
     "capital": "Majuro",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mh.svg",
-      "png": "https://flagcdn.com/w320/mh.png"
+      "emoji": "🇲🇭",
+      "emoji_unicode": "U+1F1F2 U+1F1ED",
+      "svg": "https://flagcdn.com/mh.svg"
     }
   },
   "BF": {
@@ -2092,17 +2092,17 @@
     "calling_code": "+226",
     "capital": "Ouagadougou",
     "borders": [
-      "BEN",
-      "CIV",
-      "GHA",
-      "MLI",
-      "NER",
-      "TGO"
+      "BJ",
+      "CI",
+      "GH",
+      "ML",
+      "NE",
+      "TG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bf.svg",
-      "png": "https://flagcdn.com/w320/bf.png"
+      "emoji": "🇧🇫",
+      "emoji_unicode": "U+1F1E7 U+1F1EB",
+      "svg": "https://flagcdn.com/bf.svg"
     }
   },
   "ZW": {
@@ -2110,15 +2110,15 @@
     "calling_code": "+263",
     "capital": "Harare",
     "borders": [
-      "BWA",
-      "MOZ",
-      "ZAF",
-      "ZMB"
+      "BW",
+      "MZ",
+      "ZA",
+      "ZM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/zw.svg",
-      "png": "https://flagcdn.com/w320/zw.png"
+      "emoji": "🇿🇼",
+      "emoji_unicode": "U+1F1FF U+1F1FC",
+      "svg": "https://flagcdn.com/zw.svg"
     }
   },
   "KE": {
@@ -2126,16 +2126,16 @@
     "calling_code": "+254",
     "capital": "Nairobi",
     "borders": [
-      "ETH",
-      "SOM",
-      "SSD",
-      "TZA",
-      "UGA"
+      "ET",
+      "SO",
+      "SS",
+      "TZ",
+      "UG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ke.svg",
-      "png": "https://flagcdn.com/w320/ke.png"
+      "emoji": "🇰🇪",
+      "emoji_unicode": "U+1F1F0 U+1F1EA",
+      "svg": "https://flagcdn.com/ke.svg"
     }
   },
   "KM": {
@@ -2144,9 +2144,9 @@
     "capital": "Moroni",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/km.svg",
-      "png": "https://flagcdn.com/w320/km.png"
+      "emoji": "🇰🇲",
+      "emoji_unicode": "U+1F1F0 U+1F1F2",
+      "svg": "https://flagcdn.com/km.svg"
     }
   },
   "GI": {
@@ -2154,12 +2154,12 @@
     "calling_code": "+350",
     "capital": "Gibraltar",
     "borders": [
-      "ESP"
+      "ES"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gi.svg",
-      "png": "https://flagcdn.com/w320/gi.png"
+      "emoji": "🇬🇮",
+      "emoji_unicode": "U+1F1EC U+1F1EE",
+      "svg": "https://flagcdn.com/gi.svg"
     }
   },
   "BN": {
@@ -2167,12 +2167,12 @@
     "calling_code": "+673",
     "capital": "Bandar Seri Begawan",
     "borders": [
-      "MYS"
+      "MY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bn.svg",
-      "png": "https://flagcdn.com/w320/bn.png"
+      "emoji": "🇧🇳",
+      "emoji_unicode": "U+1F1E7 U+1F1F3",
+      "svg": "https://flagcdn.com/bn.svg"
     }
   },
   "SE": {
@@ -2180,13 +2180,13 @@
     "calling_code": "+46",
     "capital": "Stockholm",
     "borders": [
-      "FIN",
-      "NOR"
+      "FI",
+      "NO"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/se.svg",
-      "png": "https://flagcdn.com/w320/se.png"
+      "emoji": "🇸🇪",
+      "emoji_unicode": "U+1F1F8 U+1F1EA",
+      "svg": "https://flagcdn.com/se.svg"
     }
   },
   "LS": {
@@ -2194,12 +2194,12 @@
     "calling_code": "+266",
     "capital": "Maseru",
     "borders": [
-      "ZAF"
+      "ZA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ls.svg",
-      "png": "https://flagcdn.com/w320/ls.png"
+      "emoji": "🇱🇸",
+      "emoji_unicode": "U+1F1F1 U+1F1F8",
+      "svg": "https://flagcdn.com/ls.svg"
     }
   },
   "IM": {
@@ -2208,9 +2208,9 @@
     "capital": "Douglas",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/im.svg",
-      "png": "https://flagcdn.com/w320/im.png"
+      "emoji": "🇮🇲",
+      "emoji_unicode": "U+1F1EE U+1F1F2",
+      "svg": "https://flagcdn.com/im.svg"
     }
   },
   "FM": {
@@ -2219,9 +2219,9 @@
     "capital": "Palikir",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fm.svg",
-      "png": "https://flagcdn.com/w320/fm.png"
+      "emoji": "🇫🇲",
+      "emoji_unicode": "U+1F1EB U+1F1F2",
+      "svg": "https://flagcdn.com/fm.svg"
     }
   },
   "TZ": {
@@ -2229,19 +2229,19 @@
     "calling_code": "+255",
     "capital": "Dodoma",
     "borders": [
-      "BDI",
-      "COD",
-      "KEN",
-      "MWI",
-      "MOZ",
-      "RWA",
-      "UGA",
-      "ZMB"
+      "BI",
+      "CD",
+      "KE",
+      "MW",
+      "MZ",
+      "RW",
+      "UG",
+      "ZM"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tz.svg",
-      "png": "https://flagcdn.com/w320/tz.png"
+      "emoji": "🇹🇿",
+      "emoji_unicode": "U+1F1F9 U+1F1FF",
+      "svg": "https://flagcdn.com/tz.svg"
     }
   },
   "CV": {
@@ -2250,9 +2250,9 @@
     "capital": "Praia",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cv.svg",
-      "png": "https://flagcdn.com/w320/cv.png"
+      "emoji": "🇨🇻",
+      "emoji_unicode": "U+1F1E8 U+1F1FB",
+      "svg": "https://flagcdn.com/cv.svg"
     }
   },
   "AF": {
@@ -2260,17 +2260,17 @@
     "calling_code": "+93",
     "capital": "Kabul",
     "borders": [
-      "IRN",
-      "PAK",
-      "TKM",
-      "UZB",
-      "TJK",
-      "CHN"
+      "IR",
+      "PK",
+      "TM",
+      "UZ",
+      "TJ",
+      "CN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/af.svg",
-      "png": "https://flagcdn.com/w320/af.png"
+      "emoji": "🇦🇫",
+      "emoji_unicode": "U+1F1E6 U+1F1EB",
+      "svg": "https://flagcdn.com/af.svg"
     }
   },
   "AD": {
@@ -2278,13 +2278,13 @@
     "calling_code": "+376",
     "capital": "Andorra la Vella",
     "borders": [
-      "FRA",
-      "ESP"
+      "FR",
+      "ES"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ad.svg",
-      "png": "https://flagcdn.com/w320/ad.png"
+      "emoji": "🇦🇩",
+      "emoji_unicode": "U+1F1E6 U+1F1E9",
+      "svg": "https://flagcdn.com/ad.svg"
     }
   },
   "GR": {
@@ -2292,15 +2292,15 @@
     "calling_code": "+30",
     "capital": "Athens",
     "borders": [
-      "ALB",
-      "BGR",
-      "TUR",
-      "MKD"
+      "AL",
+      "BG",
+      "TR",
+      "MK"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gr.svg",
-      "png": "https://flagcdn.com/w320/gr.png"
+      "emoji": "🇬🇷",
+      "emoji_unicode": "U+1F1EC U+1F1F7",
+      "svg": "https://flagcdn.com/gr.svg"
     }
   },
   "VN": {
@@ -2308,14 +2308,14 @@
     "calling_code": "+84",
     "capital": "Hanoi",
     "borders": [
-      "KHM",
-      "CHN",
-      "LAO"
+      "KH",
+      "CN",
+      "LA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/vn.svg",
-      "png": "https://flagcdn.com/w320/vn.png"
+      "emoji": "🇻🇳",
+      "emoji_unicode": "U+1F1FB U+1F1F3",
+      "svg": "https://flagcdn.com/vn.svg"
     }
   },
   "TF": {
@@ -2324,9 +2324,9 @@
     "capital": "Port-aux-Français",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tf.svg",
-      "png": "https://flagcdn.com/w320/tf.png"
+      "emoji": "🇹🇫",
+      "emoji_unicode": "U+1F1F9 U+1F1EB",
+      "svg": "https://flagcdn.com/tf.svg"
     }
   },
   "IQ": {
@@ -2334,17 +2334,17 @@
     "calling_code": "+964",
     "capital": "Baghdad",
     "borders": [
-      "IRN",
-      "JOR",
-      "KWT",
-      "SAU",
-      "SYR",
-      "TUR"
+      "IR",
+      "JO",
+      "KW",
+      "SA",
+      "SY",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/iq.svg",
-      "png": "https://flagcdn.com/w320/iq.png"
+      "emoji": "🇮🇶",
+      "emoji_unicode": "U+1F1EE U+1F1F6",
+      "svg": "https://flagcdn.com/iq.svg"
     }
   },
   "LY": {
@@ -2352,17 +2352,17 @@
     "calling_code": "+218",
     "capital": "Tripoli",
     "borders": [
-      "DZA",
-      "TCD",
-      "EGY",
-      "NER",
-      "SDN",
-      "TUN"
+      "DZ",
+      "TD",
+      "EG",
+      "NE",
+      "SD",
+      "TN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ly.svg",
-      "png": "https://flagcdn.com/w320/ly.png"
+      "emoji": "🇱🇾",
+      "emoji_unicode": "U+1F1F1 U+1F1FE",
+      "svg": "https://flagcdn.com/ly.svg"
     }
   },
   "PT": {
@@ -2370,12 +2370,12 @@
     "calling_code": "+351",
     "capital": "Lisbon",
     "borders": [
-      "ESP"
+      "ES"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pt.svg",
-      "png": "https://flagcdn.com/w320/pt.png"
+      "emoji": "🇵🇹",
+      "emoji_unicode": "U+1F1F5 U+1F1F9",
+      "svg": "https://flagcdn.com/pt.svg"
     }
   },
   "PK": {
@@ -2383,15 +2383,15 @@
     "calling_code": "+92",
     "capital": "Islamabad",
     "borders": [
-      "AFG",
-      "CHN",
-      "IND",
-      "IRN"
+      "AF",
+      "CN",
+      "IN",
+      "IR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pk.svg",
-      "png": "https://flagcdn.com/w320/pk.png"
+      "emoji": "🇵🇰",
+      "emoji_unicode": "U+1F1F5 U+1F1F0",
+      "svg": "https://flagcdn.com/pk.svg"
     }
   },
   "MV": {
@@ -2400,9 +2400,9 @@
     "capital": "Malé",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mv.svg",
-      "png": "https://flagcdn.com/w320/mv.png"
+      "emoji": "🇲🇻",
+      "emoji_unicode": "U+1F1F2 U+1F1FB",
+      "svg": "https://flagcdn.com/mv.svg"
     }
   },
   "MA": {
@@ -2410,14 +2410,14 @@
     "calling_code": "+212",
     "capital": "Rabat",
     "borders": [
-      "DZA",
-      "ESH",
-      "ESP"
+      "DZ",
+      "EH",
+      "ES"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ma.svg",
-      "png": "https://flagcdn.com/w320/ma.png"
+      "emoji": "🇲🇦",
+      "emoji_unicode": "U+1F1F2 U+1F1E6",
+      "svg": "https://flagcdn.com/ma.svg"
     }
   },
   "BA": {
@@ -2425,14 +2425,14 @@
     "calling_code": "+387",
     "capital": "Sarajevo",
     "borders": [
-      "HRV",
-      "MNE",
-      "SRB"
+      "HR",
+      "ME",
+      "RS"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ba.svg",
-      "png": "https://flagcdn.com/w320/ba.png"
+      "emoji": "🇧🇦",
+      "emoji_unicode": "U+1F1E7 U+1F1E6",
+      "svg": "https://flagcdn.com/ba.svg"
     }
   },
   "WS": {
@@ -2441,9 +2441,9 @@
     "capital": "Apia",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ws.svg",
-      "png": "https://flagcdn.com/w320/ws.png"
+      "emoji": "🇼🇸",
+      "emoji_unicode": "U+1F1FC U+1F1F8",
+      "svg": "https://flagcdn.com/ws.svg"
     }
   },
   "PS": {
@@ -2451,14 +2451,14 @@
     "calling_code": "+970",
     "capital": "Ramallah",
     "borders": [
-      "ISR",
-      "EGY",
-      "JOR"
+      "IL",
+      "EG",
+      "JO"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ps.svg",
-      "png": "https://flagcdn.com/w320/ps.png"
+      "emoji": "🇵🇸",
+      "emoji_unicode": "U+1F1F5 U+1F1F8",
+      "svg": "https://flagcdn.com/ps.svg"
     }
   },
   "OM": {
@@ -2466,14 +2466,14 @@
     "calling_code": "+968",
     "capital": "Muscat",
     "borders": [
-      "SAU",
-      "ARE",
-      "YEM"
+      "SA",
+      "AE",
+      "YE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/om.svg",
-      "png": "https://flagcdn.com/w320/om.png"
+      "emoji": "🇴🇲",
+      "emoji_unicode": "U+1F1F4 U+1F1F2",
+      "svg": "https://flagcdn.com/om.svg"
     }
   },
   "BH": {
@@ -2482,9 +2482,9 @@
     "capital": "Manama",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bh.svg",
-      "png": "https://flagcdn.com/w320/bh.png"
+      "emoji": "🇧🇭",
+      "emoji_unicode": "U+1F1E7 U+1F1ED",
+      "svg": "https://flagcdn.com/bh.svg"
     }
   },
   "US": {
@@ -2492,13 +2492,13 @@
     "calling_code": "+1201",
     "capital": "Washington, D.C.",
     "borders": [
-      "CAN",
-      "MEX"
+      "CA",
+      "MX"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/us.svg",
-      "png": "https://flagcdn.com/w320/us.png"
+      "emoji": "🇺🇸",
+      "emoji_unicode": "U+1F1FA U+1F1F8",
+      "svg": "https://flagcdn.com/us.svg"
     }
   },
   "PR": {
@@ -2507,9 +2507,9 @@
     "capital": "San Juan",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pr.svg",
-      "png": "https://flagcdn.com/w320/pr.png"
+      "emoji": "🇵🇷",
+      "emoji_unicode": "U+1F1F5 U+1F1F7",
+      "svg": "https://flagcdn.com/pr.svg"
     }
   },
   "IO": {
@@ -2518,9 +2518,9 @@
     "capital": "Diego Garcia",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/io.svg",
-      "png": "https://flagcdn.com/w320/io.png"
+      "emoji": "🇮🇴",
+      "emoji_unicode": "U+1F1EE U+1F1F4",
+      "svg": "https://flagcdn.com/io.svg"
     }
   },
   "JE": {
@@ -2529,9 +2529,9 @@
     "capital": "Saint Helier",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/je.svg",
-      "png": "https://flagcdn.com/w320/je.png"
+      "emoji": "🇯🇪",
+      "emoji_unicode": "U+1F1EF U+1F1EA",
+      "svg": "https://flagcdn.com/je.svg"
     }
   },
   "MK": {
@@ -2539,16 +2539,16 @@
     "calling_code": "+389",
     "capital": "Skopje",
     "borders": [
-      "ALB",
-      "BGR",
-      "GRC",
-      "UNK",
-      "SRB"
+      "AL",
+      "BG",
+      "GR",
+      "XK",
+      "RS"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mk.svg",
-      "png": "https://flagcdn.com/w320/mk.png"
+      "emoji": "🇲🇰",
+      "emoji_unicode": "U+1F1F2 U+1F1F0",
+      "svg": "https://flagcdn.com/mk.svg"
     }
   },
   "TN": {
@@ -2556,13 +2556,13 @@
     "calling_code": "+216",
     "capital": "Tunis",
     "borders": [
-      "DZA",
-      "LBY"
+      "DZ",
+      "LY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tn.svg",
-      "png": "https://flagcdn.com/w320/tn.png"
+      "emoji": "🇹🇳",
+      "emoji_unicode": "U+1F1F9 U+1F1F3",
+      "svg": "https://flagcdn.com/tn.svg"
     }
   },
   "TT": {
@@ -2571,9 +2571,9 @@
     "capital": "Port of Spain",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tt.svg",
-      "png": "https://flagcdn.com/w320/tt.png"
+      "emoji": "🇹🇹",
+      "emoji_unicode": "U+1F1F9 U+1F1F9",
+      "svg": "https://flagcdn.com/tt.svg"
     }
   },
   "EE": {
@@ -2581,13 +2581,13 @@
     "calling_code": "+372",
     "capital": "Tallinn",
     "borders": [
-      "LVA",
-      "RUS"
+      "LV",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ee.svg",
-      "png": "https://flagcdn.com/w320/ee.png"
+      "emoji": "🇪🇪",
+      "emoji_unicode": "U+1F1EA U+1F1EA",
+      "svg": "https://flagcdn.com/ee.svg"
     }
   },
   "SG": {
@@ -2596,9 +2596,9 @@
     "capital": "Singapore",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sg.svg",
-      "png": "https://flagcdn.com/w320/sg.png"
+      "emoji": "🇸🇬",
+      "emoji_unicode": "U+1F1F8 U+1F1EC",
+      "svg": "https://flagcdn.com/sg.svg"
     }
   },
   "PA": {
@@ -2606,13 +2606,13 @@
     "calling_code": "+507",
     "capital": "Panama City",
     "borders": [
-      "COL",
-      "CRI"
+      "CO",
+      "CR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/pa.svg",
-      "png": "https://flagcdn.com/w320/pa.png"
+      "emoji": "🇵🇦",
+      "emoji_unicode": "U+1F1F5 U+1F1E6",
+      "svg": "https://flagcdn.com/pa.svg"
     }
   },
   "CH": {
@@ -2620,16 +2620,16 @@
     "calling_code": "+41",
     "capital": "Bern",
     "borders": [
-      "AUT",
-      "FRA",
-      "ITA",
-      "LIE",
-      "DEU"
+      "AT",
+      "FR",
+      "IT",
+      "LI",
+      "DE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ch.svg",
-      "png": "https://flagcdn.com/w320/ch.png"
+      "emoji": "🇨🇭",
+      "emoji_unicode": "U+1F1E8 U+1F1ED",
+      "svg": "https://flagcdn.com/ch.svg"
     }
   },
   "UY": {
@@ -2637,13 +2637,13 @@
     "calling_code": "+598",
     "capital": "Montevideo",
     "borders": [
-      "ARG",
-      "BRA"
+      "AR",
+      "BR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/uy.svg",
-      "png": "https://flagcdn.com/w320/uy.png"
+      "emoji": "🇺🇾",
+      "emoji_unicode": "U+1F1FA U+1F1FE",
+      "svg": "https://flagcdn.com/uy.svg"
     }
   },
   "TJ": {
@@ -2651,15 +2651,15 @@
     "calling_code": "+992",
     "capital": "Dushanbe",
     "borders": [
-      "AFG",
-      "CHN",
-      "KGZ",
-      "UZB"
+      "AF",
+      "CN",
+      "KG",
+      "UZ"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tj.svg",
-      "png": "https://flagcdn.com/w320/tj.png"
+      "emoji": "🇹🇯",
+      "emoji_unicode": "U+1F1F9 U+1F1EF",
+      "svg": "https://flagcdn.com/tj.svg"
     }
   },
   "TW": {
@@ -2668,9 +2668,9 @@
     "capital": "Taipei",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/tw.svg",
-      "png": "https://flagcdn.com/w320/tw.png"
+      "emoji": "🇹🇼",
+      "emoji_unicode": "U+1F1F9 U+1F1FC",
+      "svg": "https://flagcdn.com/tw.svg"
     }
   },
   "ZA": {
@@ -2678,17 +2678,17 @@
     "calling_code": "+27",
     "capital": "Pretoria",
     "borders": [
-      "BWA",
-      "LSO",
-      "MOZ",
-      "NAM",
-      "SWZ",
-      "ZWE"
+      "BW",
+      "LS",
+      "MZ",
+      "NA",
+      "SZ",
+      "ZW"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/za.svg",
-      "png": "https://flagcdn.com/w320/za.png"
+      "emoji": "🇿🇦",
+      "emoji_unicode": "U+1F1FF U+1F1E6",
+      "svg": "https://flagcdn.com/za.svg"
     }
   },
   "LI": {
@@ -2696,13 +2696,13 @@
     "calling_code": "+423",
     "capital": "Vaduz",
     "borders": [
-      "AUT",
-      "CHE"
+      "AT",
+      "CH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/li.svg",
-      "png": "https://flagcdn.com/w320/li.png"
+      "emoji": "🇱🇮",
+      "emoji_unicode": "U+1F1F1 U+1F1EE",
+      "svg": "https://flagcdn.com/li.svg"
     }
   },
   "BR": {
@@ -2710,21 +2710,21 @@
     "calling_code": "+55",
     "capital": "Brasília",
     "borders": [
-      "ARG",
-      "BOL",
-      "COL",
-      "GUF",
-      "GUY",
-      "PRY",
-      "PER",
-      "SUR",
-      "URY",
-      "VEN"
+      "AR",
+      "BO",
+      "CO",
+      "GF",
+      "GY",
+      "PY",
+      "PE",
+      "SR",
+      "UY",
+      "VE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/br.svg",
-      "png": "https://flagcdn.com/w320/br.png"
+      "emoji": "🇧🇷",
+      "emoji_unicode": "U+1F1E7 U+1F1F7",
+      "svg": "https://flagcdn.com/br.svg"
     }
   },
   "AM": {
@@ -2732,15 +2732,15 @@
     "calling_code": "+374",
     "capital": "Yerevan",
     "borders": [
-      "AZE",
-      "GEO",
-      "IRN",
-      "TUR"
+      "AZ",
+      "GE",
+      "IR",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/am.svg",
-      "png": "https://flagcdn.com/w320/am.png"
+      "emoji": "🇦🇲",
+      "emoji_unicode": "U+1F1E6 U+1F1F2",
+      "svg": "https://flagcdn.com/am.svg"
     }
   },
   "GE": {
@@ -2748,15 +2748,15 @@
     "calling_code": "+995",
     "capital": "Tbilisi",
     "borders": [
-      "ARM",
-      "AZE",
-      "RUS",
-      "TUR"
+      "AM",
+      "AZ",
+      "RU",
+      "TR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ge.svg",
-      "png": "https://flagcdn.com/w320/ge.png"
+      "emoji": "🇬🇪",
+      "emoji_unicode": "U+1F1EC U+1F1EA",
+      "svg": "https://flagcdn.com/ge.svg"
     }
   },
   "AX": {
@@ -2765,9 +2765,9 @@
     "capital": "Mariehamn",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ax.svg",
-      "png": "https://flagcdn.com/w320/ax.png"
+      "emoji": "🇦🇽",
+      "emoji_unicode": "U+1F1E6 U+1F1FD",
+      "svg": "https://flagcdn.com/ax.svg"
     }
   },
   "QA": {
@@ -2775,12 +2775,12 @@
     "calling_code": "+974",
     "capital": "Doha",
     "borders": [
-      "SAU"
+      "SA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/qa.svg",
-      "png": "https://flagcdn.com/w320/qa.png"
+      "emoji": "🇶🇦",
+      "emoji_unicode": "U+1F1F6 U+1F1E6",
+      "svg": "https://flagcdn.com/qa.svg"
     }
   },
   "DM": {
@@ -2789,9 +2789,9 @@
     "capital": "Roseau",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/dm.svg",
-      "png": "https://flagcdn.com/w320/dm.png"
+      "emoji": "🇩🇲",
+      "emoji_unicode": "U+1F1E9 U+1F1F2",
+      "svg": "https://flagcdn.com/dm.svg"
     }
   },
   "UA": {
@@ -2799,18 +2799,18 @@
     "calling_code": "+380",
     "capital": "Kyiv",
     "borders": [
-      "BLR",
-      "HUN",
-      "MDA",
-      "POL",
-      "ROU",
-      "RUS",
-      "SVK"
+      "BY",
+      "HU",
+      "MD",
+      "PL",
+      "RO",
+      "RU",
+      "SK"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ua.svg",
-      "png": "https://flagcdn.com/w320/ua.png"
+      "emoji": "🇺🇦",
+      "emoji_unicode": "U+1F1FA U+1F1E6",
+      "svg": "https://flagcdn.com/ua.svg"
     }
   },
   "GN": {
@@ -2818,17 +2818,17 @@
     "calling_code": "+224",
     "capital": "Conakry",
     "borders": [
-      "CIV",
-      "GNB",
-      "LBR",
-      "MLI",
-      "SEN",
-      "SLE"
+      "CI",
+      "GW",
+      "LR",
+      "ML",
+      "SN",
+      "SL"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gn.svg",
-      "png": "https://flagcdn.com/w320/gn.png"
+      "emoji": "🇬🇳",
+      "emoji_unicode": "U+1F1EC U+1F1F3",
+      "svg": "https://flagcdn.com/gn.svg"
     }
   },
   "MO": {
@@ -2836,12 +2836,12 @@
     "calling_code": "+853",
     "capital": null,
     "borders": [
-      "CHN"
+      "CN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mo.svg",
-      "png": "https://flagcdn.com/w320/mo.png"
+      "emoji": "🇲🇴",
+      "emoji_unicode": "U+1F1F2 U+1F1F4",
+      "svg": "https://flagcdn.com/mo.svg"
     }
   },
   "EH": {
@@ -2849,14 +2849,14 @@
     "calling_code": "+2125288",
     "capital": "El Aaiún",
     "borders": [
-      "DZA",
-      "MRT",
-      "MAR"
+      "DZ",
+      "MR",
+      "MA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/eh.svg",
-      "png": "https://flagcdn.com/w320/eh.png"
+      "emoji": "🇪🇭",
+      "emoji_unicode": "U+1F1EA U+1F1ED",
+      "svg": "https://flagcdn.com/eh.svg"
     }
   },
   "CZ": {
@@ -2864,15 +2864,15 @@
     "calling_code": "+420",
     "capital": "Prague",
     "borders": [
-      "AUT",
-      "DEU",
-      "POL",
-      "SVK"
+      "AT",
+      "DE",
+      "PL",
+      "SK"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cz.svg",
-      "png": "https://flagcdn.com/w320/cz.png"
+      "emoji": "🇨🇿",
+      "emoji_unicode": "U+1F1E8 U+1F1FF",
+      "svg": "https://flagcdn.com/cz.svg"
     }
   },
   "AT": {
@@ -2880,19 +2880,19 @@
     "calling_code": "+43",
     "capital": "Vienna",
     "borders": [
-      "CZE",
-      "DEU",
-      "HUN",
-      "ITA",
-      "LIE",
-      "SVK",
-      "SVN",
-      "CHE"
+      "CZ",
+      "DE",
+      "HU",
+      "IT",
+      "LI",
+      "SK",
+      "SI",
+      "CH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/at.svg",
-      "png": "https://flagcdn.com/w320/at.png"
+      "emoji": "🇦🇹",
+      "emoji_unicode": "U+1F1E6 U+1F1F9",
+      "svg": "https://flagcdn.com/at.svg"
     }
   },
   "KN": {
@@ -2901,9 +2901,9 @@
     "capital": "Basseterre",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kn.svg",
-      "png": "https://flagcdn.com/w320/kn.png"
+      "emoji": "🇰🇳",
+      "emoji_unicode": "U+1F1F0 U+1F1F3",
+      "svg": "https://flagcdn.com/kn.svg"
     }
   },
   "LC": {
@@ -2912,9 +2912,9 @@
     "capital": "Castries",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/lc.svg",
-      "png": "https://flagcdn.com/w320/lc.png"
+      "emoji": "🇱🇨",
+      "emoji_unicode": "U+1F1F1 U+1F1E8",
+      "svg": "https://flagcdn.com/lc.svg"
     }
   },
   "YE": {
@@ -2922,13 +2922,13 @@
     "calling_code": "+967",
     "capital": "Sana'a",
     "borders": [
-      "OMN",
-      "SAU"
+      "OM",
+      "SA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ye.svg",
-      "png": "https://flagcdn.com/w320/ye.png"
+      "emoji": "🇾🇪",
+      "emoji_unicode": "U+1F1FE U+1F1EA",
+      "svg": "https://flagcdn.com/ye.svg"
     }
   },
   "RW": {
@@ -2936,15 +2936,15 @@
     "calling_code": "+250",
     "capital": "Kigali",
     "borders": [
-      "BDI",
-      "COD",
-      "TZA",
-      "UGA"
+      "BI",
+      "CD",
+      "TZ",
+      "UG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/rw.svg",
-      "png": "https://flagcdn.com/w320/rw.png"
+      "emoji": "🇷🇼",
+      "emoji_unicode": "U+1F1F7 U+1F1FC",
+      "svg": "https://flagcdn.com/rw.svg"
     }
   },
   "MC": {
@@ -2952,12 +2952,12 @@
     "calling_code": "+377",
     "capital": "Monaco",
     "borders": [
-      "FRA"
+      "FR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mc.svg",
-      "png": "https://flagcdn.com/w320/mc.png"
+      "emoji": "🇲🇨",
+      "emoji_unicode": "U+1F1F2 U+1F1E8",
+      "svg": "https://flagcdn.com/mc.svg"
     }
   },
   "ST": {
@@ -2966,9 +2966,9 @@
     "capital": "São Tomé",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/st.svg",
-      "png": "https://flagcdn.com/w320/st.png"
+      "emoji": "🇸🇹",
+      "emoji_unicode": "U+1F1F8 U+1F1F9",
+      "svg": "https://flagcdn.com/st.svg"
     }
   },
   "CG": {
@@ -2976,16 +2976,16 @@
     "calling_code": "+242",
     "capital": "Brazzaville",
     "borders": [
-      "AGO",
-      "CMR",
-      "CAF",
-      "COD",
-      "GAB"
+      "AO",
+      "CM",
+      "CF",
+      "CD",
+      "GA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cg.svg",
-      "png": "https://flagcdn.com/w320/cg.png"
+      "emoji": "🇨🇬",
+      "emoji_unicode": "U+1F1E8 U+1F1EC",
+      "svg": "https://flagcdn.com/cg.svg"
     }
   },
   "PY": {
@@ -2993,14 +2993,14 @@
     "calling_code": "+595",
     "capital": "Asunción",
     "borders": [
-      "ARG",
-      "BOL",
-      "BRA"
+      "AR",
+      "BO",
+      "BR"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/py.svg",
-      "png": "https://flagcdn.com/w320/py.png"
+      "emoji": "🇵🇾",
+      "emoji_unicode": "U+1F1F5 U+1F1FE",
+      "svg": "https://flagcdn.com/py.svg"
     }
   },
   "BV": {
@@ -3009,9 +3009,9 @@
     "capital": null,
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bv.svg",
-      "png": "https://flagcdn.com/w320/bv.png"
+      "emoji": "🇧🇻",
+      "emoji_unicode": "U+1F1E7 U+1F1FB",
+      "svg": "https://flagcdn.com/bv.svg"
     }
   },
   "MZ": {
@@ -3019,17 +3019,17 @@
     "calling_code": "+258",
     "capital": "Maputo",
     "borders": [
-      "MWI",
-      "ZAF",
-      "SWZ",
-      "TZA",
-      "ZMB",
-      "ZWE"
+      "MW",
+      "ZA",
+      "SZ",
+      "TZ",
+      "ZM",
+      "ZW"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mz.svg",
-      "png": "https://flagcdn.com/w320/mz.png"
+      "emoji": "🇲🇿",
+      "emoji_unicode": "U+1F1F2 U+1F1FF",
+      "svg": "https://flagcdn.com/mz.svg"
     }
   },
   "FR": {
@@ -3037,19 +3037,19 @@
     "calling_code": "+33",
     "capital": "Paris",
     "borders": [
-      "AND",
-      "BEL",
-      "DEU",
-      "ITA",
-      "LUX",
-      "MCO",
-      "ESP",
-      "CHE"
+      "AD",
+      "BE",
+      "DE",
+      "IT",
+      "LU",
+      "MC",
+      "ES",
+      "CH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fr.svg",
-      "png": "https://flagcdn.com/w320/fr.png"
+      "emoji": "🇫🇷",
+      "emoji_unicode": "U+1F1EB U+1F1F7",
+      "svg": "https://flagcdn.com/fr.svg"
     }
   },
   "SZ": {
@@ -3057,13 +3057,13 @@
     "calling_code": "+268",
     "capital": "Mbabane",
     "borders": [
-      "MOZ",
-      "ZAF"
+      "MZ",
+      "ZA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sz.svg",
-      "png": "https://flagcdn.com/w320/sz.png"
+      "emoji": "🇸🇿",
+      "emoji_unicode": "U+1F1F8 U+1F1FF",
+      "svg": "https://flagcdn.com/sz.svg"
     }
   },
   "BB": {
@@ -3072,9 +3072,9 @@
     "capital": "Bridgetown",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/bb.svg",
-      "png": "https://flagcdn.com/w320/bb.png"
+      "emoji": "🇧🇧",
+      "emoji_unicode": "U+1F1E7 U+1F1E7",
+      "svg": "https://flagcdn.com/bb.svg"
     }
   },
   "ES": {
@@ -3082,16 +3082,16 @@
     "calling_code": "+34",
     "capital": "Madrid",
     "borders": [
-      "AND",
-      "FRA",
-      "GIB",
-      "PRT",
-      "MAR"
+      "AD",
+      "FR",
+      "GI",
+      "PT",
+      "MA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/es.svg",
-      "png": "https://flagcdn.com/w320/es.png"
+      "emoji": "🇪🇸",
+      "emoji_unicode": "U+1F1EA U+1F1F8",
+      "svg": "https://flagcdn.com/es.svg"
     }
   },
   "TH": {
@@ -3099,15 +3099,15 @@
     "calling_code": "+66",
     "capital": "Bangkok",
     "borders": [
-      "MMR",
-      "KHM",
-      "LAO",
-      "MYS"
+      "MM",
+      "KH",
+      "LA",
+      "MY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/th.svg",
-      "png": "https://flagcdn.com/w320/th.png"
+      "emoji": "🇹🇭",
+      "emoji_unicode": "U+1F1F9 U+1F1ED",
+      "svg": "https://flagcdn.com/th.svg"
     }
   },
   "GW": {
@@ -3115,13 +3115,13 @@
     "calling_code": "+245",
     "capital": "Bissau",
     "borders": [
-      "GIN",
-      "SEN"
+      "GN",
+      "SN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gw.svg",
-      "png": "https://flagcdn.com/w320/gw.png"
+      "emoji": "🇬🇼",
+      "emoji_unicode": "U+1F1EC U+1F1FC",
+      "svg": "https://flagcdn.com/gw.svg"
     }
   },
   "AO": {
@@ -3129,15 +3129,15 @@
     "calling_code": "+244",
     "capital": "Luanda",
     "borders": [
-      "COG",
-      "COD",
-      "ZMB",
-      "NAM"
+      "CG",
+      "CD",
+      "ZM",
+      "NA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ao.svg",
-      "png": "https://flagcdn.com/w320/ao.png"
+      "emoji": "🇦🇴",
+      "emoji_unicode": "U+1F1E6 U+1F1F4",
+      "svg": "https://flagcdn.com/ao.svg"
     }
   },
   "IN": {
@@ -3145,17 +3145,17 @@
     "calling_code": "+91",
     "capital": "New Delhi",
     "borders": [
-      "BGD",
-      "BTN",
-      "MMR",
-      "CHN",
-      "NPL",
-      "PAK"
+      "BD",
+      "BT",
+      "MM",
+      "CN",
+      "NP",
+      "PK"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/in.svg",
-      "png": "https://flagcdn.com/w320/in.png"
+      "emoji": "🇮🇳",
+      "emoji_unicode": "U+1F1EE U+1F1F3",
+      "svg": "https://flagcdn.com/in.svg"
     }
   },
   "MQ": {
@@ -3164,9 +3164,9 @@
     "capital": "Fort-de-France",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mq.svg",
-      "png": "https://flagcdn.com/w320/mq.png"
+      "emoji": "🇲🇶",
+      "emoji_unicode": "U+1F1F2 U+1F1F6",
+      "svg": "https://flagcdn.com/mq.svg"
     }
   },
   "NC": {
@@ -3175,9 +3175,9 @@
     "capital": "Nouméa",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nc.svg",
-      "png": "https://flagcdn.com/w320/nc.png"
+      "emoji": "🇳🇨",
+      "emoji_unicode": "U+1F1F3 U+1F1E8",
+      "svg": "https://flagcdn.com/nc.svg"
     }
   },
   "SC": {
@@ -3186,9 +3186,9 @@
     "capital": "Victoria",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sc.svg",
-      "png": "https://flagcdn.com/w320/sc.png"
+      "emoji": "🇸🇨",
+      "emoji_unicode": "U+1F1F8 U+1F1E8",
+      "svg": "https://flagcdn.com/sc.svg"
     }
   },
   "FK": {
@@ -3197,9 +3197,9 @@
     "capital": "Stanley",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fk.svg",
-      "png": "https://flagcdn.com/w320/fk.png"
+      "emoji": "🇫🇰",
+      "emoji_unicode": "U+1F1EB U+1F1F0",
+      "svg": "https://flagcdn.com/fk.svg"
     }
   },
   "GB": {
@@ -3207,12 +3207,12 @@
     "calling_code": "+44",
     "capital": "London",
     "borders": [
-      "IRL"
+      "IE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gb.svg",
-      "png": "https://flagcdn.com/w320/gb.png"
+      "emoji": "🇬🇧",
+      "emoji_unicode": "U+1F1EC U+1F1E7",
+      "svg": "https://flagcdn.com/gb.svg"
     }
   },
   "FJ": {
@@ -3221,9 +3221,9 @@
     "capital": "Suva",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/fj.svg",
-      "png": "https://flagcdn.com/w320/fj.png"
+      "emoji": "🇫🇯",
+      "emoji_unicode": "U+1F1EB U+1F1EF",
+      "svg": "https://flagcdn.com/fj.svg"
     }
   },
   "SM": {
@@ -3231,12 +3231,12 @@
     "calling_code": "+378",
     "capital": "City of San Marino",
     "borders": [
-      "ITA"
+      "IT"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sm.svg",
-      "png": "https://flagcdn.com/w320/sm.png"
+      "emoji": "🇸🇲",
+      "emoji_unicode": "U+1F1F8 U+1F1F2",
+      "svg": "https://flagcdn.com/sm.svg"
     }
   },
   "ML": {
@@ -3244,18 +3244,18 @@
     "calling_code": "+223",
     "capital": "Bamako",
     "borders": [
-      "DZA",
-      "BFA",
-      "GIN",
-      "CIV",
-      "MRT",
-      "NER",
-      "SEN"
+      "DZ",
+      "BF",
+      "GN",
+      "CI",
+      "MR",
+      "NE",
+      "SN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ml.svg",
-      "png": "https://flagcdn.com/w320/ml.png"
+      "emoji": "🇲🇱",
+      "emoji_unicode": "U+1F1F2 U+1F1F1",
+      "svg": "https://flagcdn.com/ml.svg"
     }
   },
   "CA": {
@@ -3263,12 +3263,12 @@
     "calling_code": "+1",
     "capital": "Ottawa",
     "borders": [
-      "USA"
+      "US"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ca.svg",
-      "png": "https://flagcdn.com/w320/ca.png"
+      "emoji": "🇨🇦",
+      "emoji_unicode": "U+1F1E8 U+1F1E6",
+      "svg": "https://flagcdn.com/ca.svg"
     }
   },
   "JM": {
@@ -3277,9 +3277,9 @@
     "capital": "Kingston",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/jm.svg",
-      "png": "https://flagcdn.com/w320/jm.png"
+      "emoji": "🇯🇲",
+      "emoji_unicode": "U+1F1EF U+1F1F2",
+      "svg": "https://flagcdn.com/jm.svg"
     }
   },
   "NR": {
@@ -3288,9 +3288,9 @@
     "capital": "Yaren",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/nr.svg",
-      "png": "https://flagcdn.com/w320/nr.png"
+      "emoji": "🇳🇷",
+      "emoji_unicode": "U+1F1F3 U+1F1F7",
+      "svg": "https://flagcdn.com/nr.svg"
     }
   },
   "ID": {
@@ -3298,14 +3298,14 @@
     "calling_code": "+62",
     "capital": "Jakarta",
     "borders": [
-      "TLS",
-      "MYS",
-      "PNG"
+      "TL",
+      "MY",
+      "PG"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/id.svg",
-      "png": "https://flagcdn.com/w320/id.png"
+      "emoji": "🇮🇩",
+      "emoji_unicode": "U+1F1EE U+1F1E9",
+      "svg": "https://flagcdn.com/id.svg"
     }
   },
   "GU": {
@@ -3314,9 +3314,9 @@
     "capital": "Hagåtña",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gu.svg",
-      "png": "https://flagcdn.com/w320/gu.png"
+      "emoji": "🇬🇺",
+      "emoji_unicode": "U+1F1EC U+1F1FA",
+      "svg": "https://flagcdn.com/gu.svg"
     }
   },
   "CI": {
@@ -3324,16 +3324,16 @@
     "calling_code": "+225",
     "capital": "Yamoussoukro",
     "borders": [
-      "BFA",
-      "GHA",
-      "GIN",
-      "LBR",
-      "MLI"
+      "BF",
+      "GH",
+      "GN",
+      "LR",
+      "ML"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ci.svg",
-      "png": "https://flagcdn.com/w320/ci.png"
+      "emoji": "🇨🇮",
+      "emoji_unicode": "U+1F1E8 U+1F1EE",
+      "svg": "https://flagcdn.com/ci.svg"
     }
   },
   "KW": {
@@ -3341,13 +3341,13 @@
     "calling_code": "+965",
     "capital": "Kuwait City",
     "borders": [
-      "IRQ",
-      "SAU"
+      "IQ",
+      "SA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kw.svg",
-      "png": "https://flagcdn.com/w320/kw.png"
+      "emoji": "🇰🇼",
+      "emoji_unicode": "U+1F1F0 U+1F1FC",
+      "svg": "https://flagcdn.com/kw.svg"
     }
   },
   "PH": {
@@ -3356,9 +3356,9 @@
     "capital": "Manila",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ph.svg",
-      "png": "https://flagcdn.com/w320/ph.png"
+      "emoji": "🇵🇭",
+      "emoji_unicode": "U+1F1F5 U+1F1ED",
+      "svg": "https://flagcdn.com/ph.svg"
     }
   },
   "GY": {
@@ -3366,14 +3366,14 @@
     "calling_code": "+592",
     "capital": "Georgetown",
     "borders": [
-      "BRA",
-      "SUR",
-      "VEN"
+      "BR",
+      "SR",
+      "VE"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/gy.svg",
-      "png": "https://flagcdn.com/w320/gy.png"
+      "emoji": "🇬🇾",
+      "emoji_unicode": "U+1F1EC U+1F1FE",
+      "svg": "https://flagcdn.com/gy.svg"
     }
   },
   "HU": {
@@ -3381,18 +3381,18 @@
     "calling_code": "+36",
     "capital": "Budapest",
     "borders": [
-      "AUT",
-      "HRV",
-      "ROU",
-      "SRB",
-      "SVK",
-      "SVN",
-      "UKR"
+      "AT",
+      "HR",
+      "RO",
+      "RS",
+      "SK",
+      "SI",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/hu.svg",
-      "png": "https://flagcdn.com/w320/hu.png"
+      "emoji": "🇭🇺",
+      "emoji_unicode": "U+1F1ED U+1F1FA",
+      "svg": "https://flagcdn.com/hu.svg"
     }
   },
   "MX": {
@@ -3400,14 +3400,14 @@
     "calling_code": "+52",
     "capital": "Mexico City",
     "borders": [
-      "BLZ",
-      "GTM",
-      "USA"
+      "BZ",
+      "GT",
+      "US"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/mx.svg",
-      "png": "https://flagcdn.com/w320/mx.png"
+      "emoji": "🇲🇽",
+      "emoji_unicode": "U+1F1F2 U+1F1FD",
+      "svg": "https://flagcdn.com/mx.svg"
     }
   },
   "KP": {
@@ -3415,14 +3415,14 @@
     "calling_code": "+850",
     "capital": "Pyongyang",
     "borders": [
-      "CHN",
-      "KOR",
-      "RUS"
+      "CN",
+      "KR",
+      "RU"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kp.svg",
-      "png": "https://flagcdn.com/w320/kp.png"
+      "emoji": "🇰🇵",
+      "emoji_unicode": "U+1F1F0 U+1F1F5",
+      "svg": "https://flagcdn.com/kp.svg"
     }
   },
   "RO": {
@@ -3430,16 +3430,16 @@
     "calling_code": "+40",
     "capital": "Bucharest",
     "borders": [
-      "BGR",
-      "HUN",
-      "MDA",
-      "SRB",
-      "UKR"
+      "BG",
+      "HU",
+      "MD",
+      "RS",
+      "UA"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/ro.svg",
-      "png": "https://flagcdn.com/w320/ro.png"
+      "emoji": "🇷🇴",
+      "emoji_unicode": "U+1F1F7 U+1F1F4",
+      "svg": "https://flagcdn.com/ro.svg"
     }
   },
   "SR": {
@@ -3447,14 +3447,14 @@
     "calling_code": "+597",
     "capital": "Paramaribo",
     "borders": [
-      "BRA",
-      "GUF",
-      "GUY"
+      "BR",
+      "GF",
+      "GY"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/sr.svg",
-      "png": "https://flagcdn.com/w320/sr.png"
+      "emoji": "🇸🇷",
+      "emoji_unicode": "U+1F1F8 U+1F1F7",
+      "svg": "https://flagcdn.com/sr.svg"
     }
   },
   "AS": {
@@ -3463,9 +3463,9 @@
     "capital": "Pago Pago",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/as.svg",
-      "png": "https://flagcdn.com/w320/as.png"
+      "emoji": "🇦🇸",
+      "emoji_unicode": "U+1F1E6 U+1F1F8",
+      "svg": "https://flagcdn.com/as.svg"
     }
   },
   "NP": {
@@ -3473,13 +3473,13 @@
     "calling_code": "+977",
     "capital": "Kathmandu",
     "borders": [
-      "CHN",
-      "IND"
+      "CN",
+      "IN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/np.svg",
-      "png": "https://flagcdn.com/w320/np.png"
+      "emoji": "🇳🇵",
+      "emoji_unicode": "U+1F1F3 U+1F1F5",
+      "svg": "https://flagcdn.com/np.svg"
     }
   },
   "TD": {
@@ -3487,17 +3487,17 @@
     "calling_code": "+235",
     "capital": "N'Djamena",
     "borders": [
-      "CMR",
-      "CAF",
-      "LBY",
-      "NER",
-      "NGA",
-      "SDN"
+      "CM",
+      "CF",
+      "LY",
+      "NE",
+      "NG",
+      "SD"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/td.svg",
-      "png": "https://flagcdn.com/w320/td.png"
+      "emoji": "🇹🇩",
+      "emoji_unicode": "U+1F1F9 U+1F1E9",
+      "svg": "https://flagcdn.com/td.svg"
     }
   },
   "RS": {
@@ -3505,19 +3505,19 @@
     "calling_code": "+381",
     "capital": "Belgrade",
     "borders": [
-      "BIH",
-      "BGR",
-      "HRV",
-      "HUN",
-      "UNK",
-      "MKD",
-      "MNE",
-      "ROU"
+      "BA",
+      "BG",
+      "HR",
+      "HU",
+      "XK",
+      "MK",
+      "ME",
+      "RO"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/rs.svg",
-      "png": "https://flagcdn.com/w320/rs.png"
+      "emoji": "🇷🇸",
+      "emoji_unicode": "U+1F1F7 U+1F1F8",
+      "svg": "https://flagcdn.com/rs.svg"
     }
   },
   "KH": {
@@ -3525,14 +3525,14 @@
     "calling_code": "+855",
     "capital": "Phnom Penh",
     "borders": [
-      "LAO",
-      "THA",
-      "VNM"
+      "LA",
+      "TH",
+      "VN"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/kh.svg",
-      "png": "https://flagcdn.com/w320/kh.png"
+      "emoji": "🇰🇭",
+      "emoji_unicode": "U+1F1F0 U+1F1ED",
+      "svg": "https://flagcdn.com/kh.svg"
     }
   },
   "MY": {
@@ -3540,14 +3540,14 @@
     "calling_code": "+60",
     "capital": "Kuala Lumpur",
     "borders": [
-      "BRN",
-      "IDN",
-      "THA"
+      "BN",
+      "ID",
+      "TH"
     ],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/my.svg",
-      "png": "https://flagcdn.com/w320/my.png"
+      "emoji": "🇲🇾",
+      "emoji_unicode": "U+1F1F2 U+1F1FE",
+      "svg": "https://flagcdn.com/my.svg"
     }
   },
   "CY": {
@@ -3556,9 +3556,9 @@
     "capital": "Nicosia",
     "borders": [],
     "flag": {
-      "emoji": null,
-      "svg": "https://flagcdn.com/cy.svg",
-      "png": "https://flagcdn.com/w320/cy.png"
+      "emoji": "🇨🇾",
+      "emoji_unicode": "U+1F1E8 U+1F1FE",
+      "svg": "https://flagcdn.com/cy.svg"
     }
   }
 }
