@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>iphyper - network analyzer</title>
+    <link rel="icon" href="https://cdn.quaflow.com/iphyper/brand/logo/favicon/favicon.ico" type="image/x-icon">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Mapbox GL JS CSS -->
@@ -84,10 +85,10 @@
             }
         }
 
-        /* Minimal Marker Pulse */
+        /* Modern Minimal Marker Pulse */
         .custom-marker-container {
-            width: 20px;
-            height: 20px;
+            width: 40px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -95,16 +96,63 @@
 
         .marker-pulse {
             position: relative;
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             background: var(--text-main);
             border-radius: 50%;
-            box-shadow: 0 0 0 1px #000;
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
             pointer-events: none;
+            z-index: 2;
         }
 
+        /* High-Res Transparent Wave for Map Marker */
         .marker-pulse::after {
             content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* Define max size (approx 4x the marker) for crisp rendering */
+            width: 32px;
+            height: 32px;
+            transform: translate(-50%, -50%) scale(0.5);
+            
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            
+            /* Hardware acceleration hints */
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+            
+            animation: modern-wave 2.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            z-index: 1;
+        }
+
+        @keyframes modern-wave {
+            0% {
+                transform: translate(-50%, -50%) scale(0.4);
+                opacity: 0;
+            }
+            30% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0;
+            }
+        }
+
+        /* Green Status Wave */
+        .status-wave-container {
+            position: relative;
+            width: 12px;
+            height: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .status-wave {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -112,20 +160,32 @@
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            border: 1px solid var(--text-main);
-            animation: pulse-ring 2.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+            border: 1px solid rgba(16, 185, 129, 0.5);
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0) 70%);
+            animation: green-wave 2.5s cubic-bezier(0, 0.55, 0.45, 1) infinite;
         }
 
-        @keyframes pulse-ring {
+        @keyframes green-wave {
             0% {
                 transform: translate(-50%, -50%) scale(0.5);
-                opacity: 0.8;
-            }
-
-            100% {
-                transform: translate(-50%, -50%) scale(2.5);
                 opacity: 0;
             }
+            20% {
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(2.0); /* Reduced from 3.5 */
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.3s ease-out forwards;
         }
 
         /* Vercel Style Popup */
@@ -163,6 +223,42 @@
                 transform: translateX(0);
             }
         }
+
+        /* Lite Pill Animation */
+        .lite-pill-container {
+            position: relative;
+            display: inline-flex;
+            padding: 1px;
+            border-radius: 9999px;
+            overflow: hidden;
+            background: #1f1f1f; /* Faint static border background */
+        }
+
+        .lite-pill-glow {
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent 0deg, #5C98FF 100deg, transparent 180deg);
+            animation: spin-slow 3s linear infinite;
+            opacity: 1;
+        }
+
+        .lite-pill-content {
+            position: relative;
+            background: #000;
+            border-radius: 9999px;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes spin-slow {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 
@@ -171,15 +267,16 @@
     <div class="flex h-screen overflow-hidden font-sans antialiased selection:bg-white selection:text-black relative">
 
         <!-- Sidebar Area (Header + List) -->
-        <div class="w-full md:w-80 flex flex-col h-full z-30 bg-black border-r border-[#222] absolute md:relative transition-transform duration-300 mobile-sidebar-hidden md:transform-none" id="sidebar-wrapper">
+        <div class="w-full md:w-80 flex flex-col h-full z-[60] bg-black border-r border-[#222] absolute md:relative transition-transform duration-300 mobile-sidebar-hidden md:transform-none" id="sidebar-wrapper">
             
             <!-- Sidebar Header -->
             <header class="bg-black border-b border-[#222] px-4 py-4 flex justify-between items-center shrink-0">
                 <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-md bg-white text-black flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.3)]">
-                        <i class="fa-solid fa-bolt"></i>
+                    <img src="https://cdn.quaflow.com/iphyper/brand/logo/logo_dark.svg" alt="iphyper logo" class="h-10 w-auto">
+                    <div class="lite-pill-container">
+                        <div class="lite-pill-glow"></div>
+                        <span class="lite-pill-content text-[10px] font-medium text-[#666] px-2 py-0.5 uppercase tracking-wider">Lite</span>
                     </div>
-                    <h1 class="text-lg font-bold tracking-tight text-white" data-i18n="appTitle">iphyper <span class="text-[10px] font-medium text-[#666] ml-1 px-2 py-0.5 rounded-full border border-[#333] uppercase tracking-wider">Lite</span></h1>
                 </div>
                 <button onclick="toggleSidebar()" class="md:hidden text-[#666] hover:text-white transition-colors">
                     <i class="fa-solid fa-xmark text-lg"></i>
@@ -278,8 +375,11 @@
             
             <div class="absolute bottom-4 right-4 bg-black/80 backdrop-blur-md border border-[#333] p-4 rounded-lg shadow-2xl z-[500] max-w-[13rem] hidden md:block">
                 <h3 class="font-bold text-white mb-2 text-xs uppercase tracking-wide flex items-center gap-2">
-                    <i class="fa-solid fa-shield-halved text-white"></i> <span data-i18n="systemStatus">System
-                        Status</span>
+                    <div class="status-wave-container">
+                        <div class="status-wave"></div>
+                        <div class="relative w-1.5 h-1.5 bg-emerald-500 rounded-full shadow-[0_0_8px_rgba(16,185,129,0.8)]"></div>
+                    </div>
+                    <span data-i18n="systemStatus">System Status</span>
                 </h3>
                 <p class="text-[11px] text-[#888] leading-relaxed" data-i18n="statusDesc">
                     Hover over markers to view detailed data provided by ipwho.is.
@@ -831,7 +931,7 @@
         // --- UI FUNCTIONS ---
 
         function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
+            const sidebar = document.getElementById('sidebar-wrapper');
             const overlay = document.getElementById('sidebar-overlay');
 
             sidebar.classList.toggle('mobile-sidebar-hidden');
@@ -851,7 +951,7 @@
             textarea.value = "";
             textarea.focus();
 
-            const sidebar = document.getElementById('sidebar');
+            const sidebar = document.getElementById('sidebar-wrapper');
             if (sidebar.classList.contains('mobile-sidebar-visible')) {
                 toggleSidebar();
             }
@@ -904,8 +1004,8 @@
                 container: 'map',
                 style: 'mapbox://styles/mapbox/dark-v11',
                 center: [0, 20],
-                zoom: 2,
-                minZoom: 2,
+                zoom: 3,
+                minZoom: 3,
                 maxZoom: 7,
                 projection: 'globe',
                 antialias: true,
@@ -1015,29 +1115,72 @@
             const item = document.getElementById(`ip-item-${safeId}`);
             if (!item) return;
 
-            const locText = item.querySelector('.location-text');
-            const iconContainer = item.querySelector('.status-icon');
+            const container = document.getElementById('ip-list-container');
 
             if (success) {
-                const locationStr = `${data.city}, ${data.country_code}`;
-                locText.innerText = locationStr;
-                locText.className = "text-[10px] text-white location-text font-medium";
-                item.classList.add('border-white/20', 'bg-[#111]');
-                iconContainer.innerHTML = `<i class="fa-solid fa-check text-white"></i>`;
-
                 const locKey = `${data.latitude},${data.longitude}`;
-                if (!locationGroups[locKey]) {
-                    locationGroups[locKey] = [];
+                const groupSafeId = `group-${locKey.replace(/[.,]/g, '-')}`;
+                let group = document.getElementById(groupSafeId);
+
+                // Create Group if not exists
+                if (!group) {
+                    group = document.createElement('div');
+                    group.id = groupSafeId;
+                    group.className = "mb-3 border border-[#222] bg-black/50 rounded-md overflow-hidden animate-fade-in";
+                    
+                    group.innerHTML = `
+                        <div class="bg-[#111] px-3 py-2 border-b border-[#222] flex items-center gap-2 sticky top-0 z-10">
+                            ${data.flag ? `<img src="${data.flag.img}" class="w-5 h-3.5 object-cover rounded-sm shadow-sm opacity-90 border border-[#333]" alt="${data.country_code}">` : ''}
+                            <span class="text-xs font-bold text-white truncate flex-1">${data.city}, ${data.country}</span>
+                            <span class="text-[10px] text-[#555] font-mono">${data.country_code}</span>
+                        </div>
+                        <div class="p-1 space-y-1 group-items" id="${groupSafeId}-items"></div>
+                    `;
+                    // Append to main container (at bottom, below pending items if any)
+                    container.appendChild(group);
+                }
+
+                // Move item to group
+                const itemsContainer = document.getElementById(`${groupSafeId}-items`);
+                itemsContainer.appendChild(item);
+
+                // Update Item Content (Rich Info)
+                item.className = "bg-[#0a0a0a] border border-[#222] p-2 rounded flex flex-col gap-1 hover:bg-[#161616] transition-colors cursor-pointer group/item relative overflow-hidden";
+                
+                item.innerHTML = `
+                     <div class="flex items-center justify-between">
+                        <span class="font-mono text-xs text-[#ccc] font-medium group-hover/item:text-white transition-colors">${ip}</span>
+                        <div class="flex items-center gap-2">
+                             ${data.connection.asn ? `<span class="text-[9px] text-[#555] font-mono bg-[#111] px-1.5 py-0.5 rounded border border-[#222]">ASN${data.connection.asn}</span>` : ''}
+                             <i class="fa-solid fa-check text-[#10b981] text-[10px]"></i>
+                        </div>
+                     </div>
+                     <div class="flex items-center gap-1 text-[10px] text-[#666]">
+                        <i class="fa-solid fa-building text-[#333]"></i>
+                        <span class="truncate flex-1" title="${data.connection.org || data.connection.isp}">${data.connection.org || data.connection.isp || '-'}</span>
+                     </div>
+                `;
+
+                const locKeyClean = `${data.latitude},${data.longitude}`; // Ensure consistency
+                if (!locationGroups[locKeyClean]) {
+                    locationGroups[locKeyClean] = [];
                 }
                 // Store Full Data
-                locationGroups[locKey].push({ ip: ip, data: data });
+                locationGroups[locKeyClean].push({ ip: ip, data: data });
 
-                updateMarkers(locKey, data.latitude, data.longitude);
+                updateMarkers(locKeyClean, data.latitude, data.longitude);
 
             } else {
-                locText.innerText = t('notFound');
-                locText.className = "text-[10px] text-red-500 location-text";
-                iconContainer.innerHTML = `<i class="fa-solid fa-xmark text-red-500"></i>`;
+                const locText = item.querySelector('.location-text');
+                const iconContainer = item.querySelector('.status-icon');
+
+                if(locText) {
+                    locText.innerText = t('notFound');
+                    locText.className = "text-[10px] text-red-500 location-text";
+                }
+                if(iconContainer) {
+                    iconContainer.innerHTML = `<i class="fa-solid fa-xmark text-red-500"></i>`;
+                }
             }
         }
 
@@ -1223,7 +1366,7 @@
             const locKey = markers[ip];
             if (locKey && markers[locKey]) {
                 const marker = markers[locKey];
-                const sidebar = document.getElementById('sidebar');
+                const sidebar = document.getElementById('sidebar-wrapper');
                 if (sidebar.classList.contains('mobile-sidebar-visible')) {
                     toggleSidebar();
                 }
