@@ -167,3 +167,6 @@ dist
 .wrangler/
 
 node_modules/
+
+# Data
+api/data/*.mmdb
