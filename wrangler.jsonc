@@ -1,9 +1,14 @@
 {
   "name": "iphyper",
+  "main": "src/index.js",
   "compatibility_date": "2024-11-23",
   "assets": {
-    // The path to the directory containing the `index.html` file to be served at `/`
-    "directory": "./public"
+    "directory": "./public",
+    "binding": "ASSETS",
+    "html_handling": "none"
+  },
+  "vars": {
+    "MAPBOX_ACCESS_TOKEN": ""
   },
   "observability": {
     "enabled": true

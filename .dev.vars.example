@@ -1,0 +1,6 @@
+# Environment Variables for Local Development
+# Copy this file to .dev.vars and fill in your actual values
+# .dev.vars is gitignored and will be used by wrangler dev
+
+MAPBOX_ACCESS_TOKEN=your_mapbox_token_here
+
